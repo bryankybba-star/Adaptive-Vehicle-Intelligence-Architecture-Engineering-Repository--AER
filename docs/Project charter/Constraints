@@ -1,0 +1,59 @@
+# 11. Constraints
+
+## Purpose
+
+Project constraints define the boundaries, limitations, and conditions within which the Adaptive Vehicle Intelligence Architecture (AVIA) project shall be planned, developed, validated, and maintained.
+
+Constraints are recognized as essential engineering inputs that guide objective decision-making and promote focused innovation.
+
+---
+
+## Project Constraints
+
+### PC-001 — Scientific Constraints
+
+The project shall be developed in accordance with established scientific principles and validated scientific knowledge.
+
+---
+
+### PC-002 — Physical Constraints
+
+All proposed engineering concepts shall remain consistent with the laws of physics and the physical behavior of real-world vehicle systems.
+
+---
+
+### PC-003 — Engineering Constraints
+
+Engineering activities shall follow approved systems engineering practices, project governance, and engineering philosophy.
+
+---
+
+### PC-004 — Resource Constraints
+
+Project progress shall consider the availability of time, knowledge, tools, computational resources, funding, and engineering personnel.
+
+---
+
+### PC-005 — Technological Constraints
+
+Engineering solutions shall acknowledge the capabilities and limitations of available technologies while remaining adaptable to future technological advancements.
+
+---
+
+### PC-006 — Safety Constraints
+
+Safety shall remain a fundamental consideration throughout engineering analysis, architectural development, validation, and future implementation.
+
+---
+
+### PC-007 — Documentation Constraints
+
+Engineering decisions, assumptions, and changes shall be documented and maintained within the governed repository to preserve traceability and knowledge integrity.
+
+---
+
+## Engineering Perspective
+
+Within the AVIA project, constraints are not regarded as obstacles to progress. They define the engineering space within which disciplined analysis, creative problem-solving, and practical innovation occur.
+
+The project adopts the principle that **constraints guide innovation** by focusing engineering effort toward solutions that are scientifically sound, technically feasible, and aligned with project objectives.
