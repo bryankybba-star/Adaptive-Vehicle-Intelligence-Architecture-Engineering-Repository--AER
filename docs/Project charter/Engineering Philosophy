@@ -1,0 +1,95 @@
+# 9. Engineering Philosophy
+
+## Purpose
+
+The Engineering Philosophy defines the fundamental principles that guide engineering decisions throughout the Adaptive Vehicle Intelligence Architecture (AVIA) project.
+
+These principles establish the project's engineering mindset and provide a consistent foundation for planning, analysis, design, validation, and continuous improvement.
+
+Every engineering activity performed within the AVIA project shall remain aligned with these principles.
+
+---
+
+## Engineering Philosophy Principles
+
+### EPP-001 — Objectives Before Solutions
+
+Engineering shall begin by clearly defining objectives before proposing or evaluating solutions.
+
+Solutions shall always be traceable to approved engineering objectives.
+
+---
+
+### EPP-002 — Architecture Before Implementation
+
+System architecture shall be established before implementation activities begin.
+
+Implementation shall follow architecture, not define it.
+
+---
+
+### EPP-003 — Systems Thinking Before Component Thinking
+
+Engineering decisions shall consider the behavior of the complete system before optimizing individual components.
+
+Subsystem optimization shall not compromise overall system performance.
+
+---
+
+### EPP-004 — Constraints Guide Innovation
+
+Engineering constraints are not obstacles to innovation.
+
+They define the engineering space within which creative, practical, and effective solutions emerge.
+
+---
+
+### EPP-005 — Solution Independence
+
+Engineering problems shall be analyzed independently of any preferred solution whenever practical.
+
+Alternative solutions shall remain possible until justified through objective engineering evaluation.
+
+---
+
+### EPP-006 — Traceability
+
+Every engineering decision should be traceable to approved objectives, requirements, assumptions, analyses, or validated evidence.
+
+Engineering decisions shall not exist without justification.
+
+---
+
+### EPP-007 — Scientific Foundation
+
+Engineering decisions shall be supported by scientific principles, mathematical reasoning, experimental evidence, simulation, or validated engineering analysis.
+
+---
+
+### EPP-008 — Knowledge as an Engineering Asset
+
+Engineering knowledge shall be preserved, governed, reviewed, and continuously improved throughout the lifecycle of the AVIA project.
+
+Knowledge is considered an engineering product, not merely project documentation.
+
+---
+
+### EPP-009 — Continuous Validation
+
+Engineering assumptions, models, and proposed solutions shall be continuously evaluated through analysis, simulation, testing, and review.
+
+Validation is an ongoing engineering activity rather than a final project phase.
+
+---
+
+### EPP-010 — Scalable Engineering
+
+Engineering decisions shall support future expansion, integration, refinement, and long-term evolution without requiring unnecessary redesign.
+
+---
+
+## Engineering Commitment
+
+The AVIA project is committed to applying these engineering philosophy principles consistently across all engineering disciplines, documentation, architectural development, and decision-making activities.
+
+These principles serve as the intellectual and methodological foundation of the project and shall guide its evolution from concept through validation and future implementation.
