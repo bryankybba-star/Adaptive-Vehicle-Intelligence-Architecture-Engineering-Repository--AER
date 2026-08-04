@@ -1,0 +1,85 @@
+# 15. Governance
+
+## Purpose
+
+The Governance framework establishes the principles, responsibilities, and decision-making processes that guide the development, maintenance, and evolution of the Adaptive Vehicle Intelligence Architecture (AVIA) project.
+
+It ensures that engineering activities remain disciplined, transparent, traceable, and aligned with the project's objectives, engineering philosophy, and repository governance.
+
+---
+
+## Governance Principles
+
+### GP-001 — Engineering Integrity
+
+All engineering decisions shall be based on objective analysis, scientific reasoning, validated evidence, and sound engineering judgment.
+
+---
+
+### GP-002 — Document Authority
+
+Approved engineering documents shall serve as the authoritative source for project direction, requirements, architectures, and engineering decisions.
+
+No engineering activity shall knowingly contradict an approved governing document without undergoing the established change and approval process.
+
+---
+
+### GP-003 — Controlled Change
+
+Engineering changes shall be introduced through documented review, evaluation, approval, and version control to preserve project integrity and traceability.
+
+---
+
+### GP-004 — Traceability
+
+Engineering objectives, requirements, architectures, analyses, decisions, and validation activities shall remain traceable throughout the project lifecycle.
+
+---
+
+### GP-005 — Engineering Review
+
+Major engineering documents and significant engineering decisions shall undergo structured review before approval and release into the public engineering repository.
+
+---
+
+### GP-006 — Knowledge Governance
+
+Engineering knowledge shall be managed as a strategic project asset through structured documentation, version management, repository governance, and continuous improvement.
+
+---
+
+## Governance Responsibility
+
+Project governance applies to:
+
+- Engineering documentation.
+- Technical decision-making.
+- Engineering reviews.
+- Repository management.
+- Version control.
+- Project evolution.
+
+All contributors shall follow the approved governance framework while participating in the development of the AVIA project.
+
+---
+
+## Relationship to Repository Governance
+
+This Project Charter establishes governance for the AVIA engineering project.
+
+Operational governance of the engineering repository is defined separately within the repository governance documents, including:
+
+- `GOVERNANCE.md`
+- `CONTRIBUTING.md`
+- `CHANGELOG.md`
+- `REPOSITORY_STRUCTURE.md`
+
+Together, these documents ensure that both the engineering project and its knowledge repository evolve in a coordinated and controlled manner.
+
+---
+
+## Engineering Perspective
+
+Effective engineering requires both technical excellence and disciplined governance.
+
+The governance framework exists to ensure that engineering innovation is achieved through objective reasoning, controlled evolution, and transparent decision-making rather than uncontrolled change.
