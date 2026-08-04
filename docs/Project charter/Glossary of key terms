@@ -1,0 +1,77 @@
+# 17. Glossary of Key Terms
+
+## Purpose
+
+This glossary defines key terms used throughout the Adaptive Vehicle Intelligence Architecture (AVIA) Project Charter. These definitions establish a common engineering vocabulary and promote consistency across all engineering documentation.
+
+---
+
+### Adaptive
+
+The capability of a system to modify or coordinate its behavior in response to changing operating conditions while remaining aligned with defined objectives and constraints.
+
+---
+
+### Architecture
+
+The fundamental organization of a system, including its elements, relationships, interactions, and governing principles.
+
+---
+
+### Constraint
+
+A condition, limitation, or boundary within which engineering decisions and system development must occur.
+
+---
+
+### Engineering Knowledge
+
+The documented collection of engineering principles, analyses, decisions, models, architectures, requirements, and validation evidence produced throughout the project.
+
+---
+
+### Governance
+
+The framework of principles, policies, roles, and processes used to guide and control the development and evolution of the project.
+
+---
+
+### Objective
+
+A defined engineering outcome that the project or system is intended to achieve.
+
+---
+
+### Requirement
+
+A verifiable statement describing a capability, condition, or performance that the engineered system must satisfy.
+
+---
+
+### Stakeholder
+
+An individual, group, or organization that influences, contributes to, benefits from, or is affected by the project.
+
+---
+
+### Traceability
+
+The ability to establish and maintain documented relationships between objectives, requirements, architectures, engineering decisions, analyses, and validation activities.
+
+---
+
+### Validation
+
+The process of demonstrating, through objective evidence, that the engineered system satisfies its intended objectives and stakeholder needs.
+
+---
+
+### Verification
+
+The process of confirming, through objective evidence, that engineering outputs satisfy their specified requirements.
+
+---
+
+### Baseline
+
+A formally approved version of a document or engineering artifact that serves as the reference point for future development and controlled change.
