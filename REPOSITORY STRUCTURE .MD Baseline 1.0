@@ -1,0 +1,203 @@
+# Repository Structure
+
+## Adaptive Vehicle Intelligence Architecture Engineering Repository – Public (AER-PU)
+
+---
+
+## Purpose
+
+The purpose of this document is to define the organizational structure of the Adaptive Vehicle Intelligence Architecture Engineering Repository – Public (AER-PU). It establishes how approved engineering knowledge is organized, stored, maintained, and navigated throughout the lifecycle of the AVIA project.
+
+---
+
+# Repository Organization Philosophy
+
+The repository shall be organized as an engineering knowledge system rather than a collection of unrelated files.
+
+Every document shall occupy a defined location within the repository hierarchy according to its engineering purpose and relationship to other engineering knowledge.
+
+The repository structure shall promote:
+
+- Clarity
+- Traceability
+- Scalability
+- Maintainability
+- Consistency
+- Discoverability
+
+---
+
+# Repository Architecture
+
+The repository is organized into two primary layers:
+
+## Layer 1 – Repository Governance
+
+This layer contains documents that govern the operation of the repository itself.
+
+Examples include:
+
+- README.md
+- GOVERNANCE.md
+- CONTRIBUTING.md
+- CHANGELOG.md
+
+---
+
+## Layer 2 – Engineering Knowledge
+
+This layer contains approved engineering knowledge relating to the AVIA project.
+
+Examples include:
+
+- Project Charter
+- System Specifications
+- Engineering Architectures
+- Engineering Principles
+- Engineering Laws
+- Validation Reports
+- Technical Documentation
+
+---
+
+# Top-Level Repository Structure
+
+The repository shall follow the following high-level organization:
+
+```text
+AER-PU/
+
+README.md
+GOVERNANCE.md
+CONTRIBUTING.md
+CHANGELOG.md
+
+docs/
+
+archive/
+
+resources/
+```
+
+---
+
+# Engineering Knowledge Structure
+
+The `docs/` directory shall contain organized engineering knowledge.
+
+A typical structure shall include:
+
+```text
+docs/
+
+Project_Charter/
+
+System_Objective_Specification/
+
+System_Requirements_Specification/
+
+Functional_Architecture/
+
+Physics_Architecture/
+
+Mathematical_Architecture/
+
+Decision_Architecture/
+
+Control_Architecture/
+
+Mechanical_Architecture/
+
+Electrical_Architecture/
+
+Simulation/
+
+Testing/
+
+Validation/
+
+Engineering_Principles/
+
+Engineering_Laws/
+
+Glossary/
+```
+
+The structure may expand as the AVIA project evolves while preserving consistency and traceability.
+
+---
+
+# Archive Structure
+
+The `archive/` directory shall preserve superseded engineering knowledge.
+
+Archived documents shall remain available for historical reference and engineering traceability.
+
+Documents shall not be permanently removed when replaced by newer approved versions unless required by repository governance.
+
+---
+
+# Resources Structure
+
+The `resources/` directory shall contain supporting materials that assist in understanding the repository.
+
+Examples include:
+
+- Repository images
+- Diagrams
+- Figures
+- Templates
+- Reference material
+
+Resources shall support engineering documentation but shall not replace official engineering documents.
+
+---
+
+# Repository Navigation Principles
+
+The repository shall be organized so that:
+
+- Similar engineering knowledge is grouped together.
+- Repository navigation remains intuitive.
+- Engineering documents remain easy to locate.
+- Repository growth does not require major structural redesign.
+
+---
+
+# Repository Growth Policy
+
+The repository structure is intended to support long-term expansion.
+
+New engineering domains may be added when justified by the evolution of the AVIA project.
+
+Expansion shall preserve the existing organizational philosophy and maintain repository consistency.
+
+---
+
+# Repository Maintenance
+
+The repository structure shall be periodically reviewed to ensure it continues to support the engineering needs of the AVIA project.
+
+Structural improvements shall be introduced through controlled governance and documented within the repository changelog.
+
+---
+
+# Repository Philosophy
+
+A repository is not simply a storage location.
+
+It is the architectural framework through which engineering knowledge is organized, preserved, and communicated.
+
+The structure of the repository should reflect the structure of the engineering system it documents.
+
+---
+
+Document Identifier: RST-001
+
+Version: 1.0
+
+Status: Active
+
+Repository: AER-PU
+
+Classification: Public
