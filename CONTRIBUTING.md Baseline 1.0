@@ -1,0 +1,174 @@
+# Contributing
+
+## Adaptive Vehicle Intelligence Architecture Engineering Repository – Public (AER-PU)
+
+---
+
+## Purpose
+
+The purpose of this document is to establish the standard process for contributing engineering knowledge to the Adaptive Vehicle Intelligence Architecture Engineering Repository – Public (AER-PU).
+
+It ensures that every published contribution is reviewed, traceable, consistent, and aligned with the engineering philosophy and governance of the AVIA project.
+
+---
+
+# Contribution Philosophy
+
+Engineering knowledge is considered a strategic asset of the AVIA project.
+
+Every contribution shall improve the quality, consistency, traceability, or completeness of the engineering knowledge base.
+
+Contributions are accepted based on engineering merit, not on contributor identity.
+
+---
+
+# Contribution Objectives
+
+This contribution framework exists to:
+
+- Maintain engineering quality.
+- Preserve repository consistency.
+- Support structured engineering collaboration.
+- Ensure engineering traceability.
+- Encourage continuous improvement.
+- Protect repository integrity.
+
+---
+
+# Eligible Contributions
+
+The repository accepts contributions including, but not limited to:
+
+- Engineering specifications
+- System requirements
+- Architecture documents
+- Engineering principles
+- Engineering laws
+- Technical reports
+- Validation documents
+- Engineering diagrams
+- Repository documentation
+- Engineering corrections and improvements
+
+---
+
+# Contribution Workflow
+
+Every contribution shall follow the engineering lifecycle:
+
+Proposal
+
+↓
+
+Preparation
+
+↓
+
+Engineering Review
+
+↓
+
+Revision
+
+↓
+
+Approval
+
+↓
+
+Baseline Assignment
+
+↓
+
+Publication
+
+↓
+
+Repository Maintenance
+
+---
+
+# Engineering Review
+
+Every contribution shall undergo engineering review before publication.
+
+The review shall evaluate:
+
+- Engineering accuracy
+- Consistency
+- Traceability
+- Completeness
+- Alignment with repository governance
+- Alignment with AVIA engineering philosophy
+
+---
+
+# Approval
+
+Only approved contributions shall become official repository documents.
+
+Approved contributions shall receive:
+
+- Document Identifier
+- Version Number
+- Baseline Status
+- Publication Status
+
+---
+
+# Traceability
+
+Every contribution shall maintain traceability whenever applicable.
+
+Engineering statements should be traceable to:
+
+- Engineering objectives
+- Engineering principles
+- Approved requirements
+- Previous engineering decisions
+- Established baselines
+
+---
+
+# Contribution Standards
+
+Every engineering contribution should:
+
+- Be clearly written.
+- Be technically accurate.
+- Be solution-independent whenever appropriate.
+- Use consistent engineering terminology.
+- Support the overall AVIA architecture.
+- Respect repository governance.
+
+---
+
+# Revision Policy
+
+Engineering knowledge evolves continuously.
+
+Contributors are encouraged to improve existing documents through controlled revisions rather than replacing historical engineering knowledge.
+
+Previous approved versions shall remain preserved as part of the repository history.
+
+---
+
+# Repository Integrity
+
+The repository prioritizes quality over quantity.
+
+Engineering knowledge shall be published only after appropriate review and approval.
+
+The objective is to maintain a repository that remains reliable, trustworthy, and valuable throughout the lifecycle of the AVIA project.
+
+---
+
+Document Identifier: CONT-001
+
+Version: 1.0
+
+Status: Active
+
+Repository: AER-PU
+
+Classification: Public
