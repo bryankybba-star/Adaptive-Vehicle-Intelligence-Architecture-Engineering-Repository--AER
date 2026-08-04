@@ -1,0 +1,9 @@
+# 3. Problem Statement
+
+Modern vehicles consist of numerous interconnected subsystems that frequently require continuous driver interaction to maintain efficient operation under changing driving conditions.
+
+In demanding driving environments, such as rally competitions and other dynamic operating conditions, rapid changes in terrain, vehicle dynamics, and driver workload can increase the complexity of vehicle operation. These conditions may require frequent driver actions that compete for the driver's attention during critical moments.
+
+Although existing vehicle technologies provide varying levels of automation and driver assistance, opportunities remain to improve the coordination between vehicle subsystems while preserving driver authority, vehicle stability, and operational safety.
+
+The AVIA project seeks to investigate and develop an adaptive systems architecture capable of intelligently coordinating vehicle behavior in response to changing operating conditions. The objective is to reduce unnecessary driver workload, improve system coordination, and support consistent vehicle performance through disciplined systems engineering rather than isolated component optimization.
