@@ -1,0 +1,56 @@
+# 2. Scope
+
+## Purpose
+
+This section defines the scope of the engineering objectives established within this System Objective Specification (SOS).
+
+It identifies the intended boundaries of the AVIA system objectives, ensuring that subsequent requirements, architectures, and engineering activities remain aligned with the defined purpose of the system.
+
+---
+
+## Scope Statement
+
+The System Objective Specification defines the objectives that the Adaptive Vehicle Intelligence Architecture (AVIA) system is intended to achieve throughout its operational lifecycle.
+
+The scope includes the identification of solution-independent system objectives that describe the desired capabilities, behaviors, and performance outcomes of the AVIA system without prescribing implementation methods.
+
+---
+
+## In Scope
+
+The SOS includes:
+
+- Definition of system objectives.
+- Identification of desired system capabilities.
+- Definition of intended system behaviors.
+- High-level operational performance objectives.
+- Objective relationships and traceability.
+- Objective-level engineering constraints and assumptions.
+- Alignment with the approved Project Charter.
+
+---
+
+## Out of Scope
+
+The SOS does not include:
+
+- Detailed system requirements.
+- Engineering architectures.
+- Hardware selection.
+- Software design.
+- Algorithms.
+- Control logic implementation.
+- Mathematical models.
+- Physical component design.
+- Verification procedures.
+- Validation procedures.
+
+These subjects shall be addressed within their respective engineering documents.
+
+---
+
+## Scope Boundary
+
+The SOS serves as the authoritative definition of **what the AVIA system must achieve**.
+
+It intentionally avoids defining **how the system will achieve those objectives**, preserving engineering flexibility for subsequent design, analysis, and implementation activities.
