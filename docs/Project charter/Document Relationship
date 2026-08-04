@@ -1,0 +1,76 @@
+# 16. Document Relationships
+
+## Purpose
+
+The Document Relationships section defines how the Project Charter relates to other engineering documents within the Adaptive Vehicle Intelligence Architecture (AVIA) project.
+
+It establishes the hierarchy of engineering documentation, ensuring that every major document has a clear purpose, authority, and traceable relationship to the others.
+
+---
+
+## Engineering Document Hierarchy
+
+The Project Charter serves as the highest-level engineering governance document for the AVIA project.
+
+Engineering documents shall be developed in the following hierarchical relationship:
+
+```text
+Project Charter
+        │
+        ▼
+System Objective Specification (SOS)
+        │
+        ▼
+System Requirements Specification (SRS)
+        │
+        ▼
+Engineering Architectures
+        │
+        ├── Functional Architecture
+        ├── Physics Architecture
+        ├── Mathematical Architecture
+        ├── Mechanical Architecture
+        ├── Electrical Architecture
+        ├── Control Architecture
+        └── Decision Architecture
+        │
+        ▼
+Engineering Analysis
+        │
+        ▼
+Simulation
+        │
+        ▼
+Verification & Validation
+```
+
+---
+
+## Document Authority
+
+Each engineering document derives its authority from the document immediately above it within the hierarchy.
+
+Accordingly:
+
+- The Project Charter authorizes the project.
+- The System Objective Specification defines what the system must achieve.
+- The System Requirements Specification defines what the system must satisfy.
+- Engineering Architectures define how the system is organized.
+- Engineering Analyses evaluate engineering concepts.
+- Simulation, Verification, and Validation provide objective evidence of engineering performance.
+
+---
+
+## Traceability
+
+Engineering information shall remain traceable throughout the documentation hierarchy.
+
+Changes to higher-level documents may require review of dependent documents to maintain consistency, alignment, and engineering integrity.
+
+---
+
+## Engineering Perspective
+
+The engineering documentation hierarchy ensures that every engineering activity can be traced from implementation and validation back through architectures, requirements, objectives, and ultimately to the Project Charter.
+
+This hierarchy promotes consistency, transparency, disciplined engineering, and controlled project evolution.
