@@ -1,0 +1,124 @@
+# Changelog
+
+## Adaptive Vehicle Intelligence Architecture Engineering Repository – Public (AER-PU)
+
+---
+
+## Purpose
+
+The purpose of this document is to provide a structured and traceable record of significant changes made to the Adaptive Vehicle Intelligence Architecture Engineering Repository – Public (AER-PU).
+
+The changelog preserves the historical evolution of the repository by documenting major milestones, approved modifications, governance updates, engineering publications, and repository improvements.
+
+---
+
+# Changelog Philosophy
+
+Engineering knowledge evolves over time.
+
+The purpose of the changelog is not simply to record that something changed, but to document the engineering significance of the change and preserve the history of repository evolution.
+
+The changelog complements version control by recording meaningful engineering milestones rather than low-level file modifications.
+
+---
+
+# Scope
+
+This changelog records:
+
+- Repository governance updates
+- Repository structure changes
+- Publication of approved engineering documents
+- Repository policy revisions
+- Major engineering milestones
+- Baseline releases
+- Repository-wide improvements
+
+The changelog does not record:
+
+- Minor spelling corrections
+- Formatting changes
+- Temporary draft work
+- Private engineering activities
+- Experimental development
+
+---
+
+# Change Categories
+
+Repository changes shall be classified into one or more of the following categories:
+
+- Added
+- Approved
+- Changed
+- Improved
+- Deprecated
+- Archived
+- Removed
+- Released
+
+---
+
+# Version History
+
+## Version 1.0
+
+Status: Active
+
+Date: Repository Initialization
+
+### Added
+
+- Public Engineering Repository established.
+- Repository description approved.
+- README.md Baseline 1.0 published.
+- GOVERNANCE.md Baseline 1.0 published.
+- CONTRIBUTING.md Baseline 1.0 published.
+- CHANGELOG.md Baseline 1.0 established.
+
+### Approved
+
+- Repository Governance Framework.
+- Repository Contribution Framework.
+
+### Released
+
+- Repository Foundation Layer Version 1.0.
+
+---
+
+# Recording Policy
+
+Every significant repository change shall include:
+
+- Version
+- Date
+- Change Category
+- Description
+- Engineering significance (when applicable)
+
+---
+
+# Repository Milestones
+
+The repository shall maintain a chronological record of significant engineering and governance milestones throughout the lifecycle of the AVIA project.
+
+---
+
+# Continuous Evolution
+
+This changelog shall be updated whenever a significant repository milestone or approved engineering publication occurs.
+
+Historical entries shall remain preserved to maintain repository traceability and engineering history.
+
+---
+
+Document Identifier: CHG-001
+
+Version: 1.0
+
+Status: Active
+
+Repository: AER-PU
+
+Classification: Public
