@@ -1,0 +1,9 @@
+# 2. Project Overview
+
+The Adaptive Vehicle Intelligence Architecture (AVIA) is a systems engineering project dedicated to the research, design, development, and validation of an adaptive vehicle architecture that enhances vehicle operation through intelligent coordination of vehicle subsystems.
+
+Rather than focusing on isolated vehicle components, AVIA approaches the vehicle as an integrated engineering system in which mechanical, electrical, electronic, computational, and human-interaction elements operate together to achieve coordinated, adaptive, and efficient performance.
+
+The project emphasizes a solution-independent engineering methodology. Engineering objectives are established before solutions are proposed, ensuring that design decisions remain traceable to clearly defined needs, constraints, and system requirements.
+
+AVIA is intended to provide a structured engineering framework that supports the systematic investigation, development, and validation of adaptive vehicle technologies while maintaining safety, reliability, maintainability, scalability, and engineering integrity throughout the project lifecycle.
