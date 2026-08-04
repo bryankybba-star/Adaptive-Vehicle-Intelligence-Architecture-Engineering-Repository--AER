@@ -1,0 +1,47 @@
+# 7. Project Scope
+
+## Scope Statement
+
+The Adaptive Vehicle Intelligence Architecture (AVIA) project encompasses the research, engineering, development, validation, and documentation of an adaptive vehicle systems architecture through a disciplined systems engineering approach.
+
+The project includes the development of engineering knowledge, system architectures, scientific analyses, mathematical models, engineering principles, and validation methods necessary to investigate and demonstrate adaptive vehicle intelligence.
+
+---
+
+## In Scope
+
+The AVIA project includes, but is not limited to:
+
+- Systems engineering and project governance.
+- Engineering knowledge management and documentation.
+- System objective definition and requirements engineering.
+- Functional, physical, and logical architecture development.
+- Mechanical, electrical, electronic, and control system integration.
+- Mathematical modeling and engineering analysis.
+- Simulation, testing, and validation methodologies.
+- Human–vehicle interaction considerations.
+- Engineering principles, design constraints, and decision traceability.
+- Development of scalable and extensible adaptive vehicle architectures.
+
+---
+
+## Out of Scope
+
+The following activities are outside the scope of the current AVIA project unless formally approved through project governance:
+
+- Commercial vehicle production.
+- Manufacturing and mass production planning.
+- Marketing and commercial business operations.
+- Regulatory certification activities.
+- Production supply chain management.
+- Vehicle sales and customer support.
+- Development of technologies unrelated to adaptive vehicle systems.
+- Engineering activities that cannot be traced to approved project objectives or system requirements.
+
+---
+
+## Scope Boundaries
+
+The AVIA project is focused on establishing a robust engineering foundation for adaptive vehicle intelligence.
+
+While prototypes, demonstrations, and implementation studies may be developed, the primary emphasis remains on creating validated engineering knowledge, architectures, and methodologies that can support future research, development, and practical implementation.
