@@ -1,0 +1,53 @@
+# 3. System Overview
+
+## Purpose
+
+The System Overview provides a high-level description of the Adaptive Vehicle Intelligence Architecture (AVIA) system.
+
+It establishes a common technical understanding of the system, its intended role, and its operational perspective without prescribing implementation details.
+
+---
+
+## System Description
+
+The Adaptive Vehicle Intelligence Architecture (AVIA) is an adaptive engineering system intended to coordinate vehicle behavior in response to changing operating conditions.
+
+The system is designed to observe relevant operational conditions, evaluate those conditions against defined engineering objectives and constraints, and support coordinated system behavior that enhances overall vehicle performance, operational efficiency, and driver support.
+
+---
+
+## System Characteristics
+
+The AVIA system is intended to exhibit the following characteristics:
+
+- Adaptive operation.
+- Coordinated subsystem behavior.
+- Objective-driven decision-making.
+- Solution-independent architecture.
+- Engineering traceability.
+- Scalability and extensibility.
+- Reliability and maintainability.
+- Safety-oriented operation.
+
+---
+
+## System Perspective
+
+The AVIA system is considered an integrated engineering system composed of multiple interacting disciplines, including but not limited to:
+
+- Mechanical systems.
+- Electrical systems.
+- Electronic systems.
+- Control systems.
+- Computational systems.
+- Human-system interaction.
+
+These disciplines shall operate as coordinated elements of a unified engineering architecture rather than as isolated components.
+
+---
+
+## Engineering Perspective
+
+The purpose of the AVIA system is not to replace the driver, nor to automate vehicle operation indiscriminately.
+
+Its purpose is to intelligently coordinate vehicle behavior in support of defined engineering objectives while preserving safety, engineering integrity, and appropriate human authority.
