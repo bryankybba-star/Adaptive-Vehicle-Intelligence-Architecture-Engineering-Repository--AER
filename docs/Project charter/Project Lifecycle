@@ -1,0 +1,76 @@
+# 14. Project Lifecycle
+
+## Purpose
+
+The Project Lifecycle defines the structured sequence of phases through which the Adaptive Vehicle Intelligence Architecture (AVIA) project shall progress.
+
+It provides a systematic framework for planning, developing, validating, and continuously improving the project while maintaining engineering discipline, traceability, and governance.
+
+---
+
+## Lifecycle Phases
+
+### PL-001 — Project Initiation
+
+The project is formally established through the approval of the Project Charter, defining its purpose, vision, objectives, scope, governance, and engineering philosophy.
+
+---
+
+### PL-002 — Project Planning
+
+Engineering planning activities establish project direction, documentation strategy, repository organization, and engineering methodologies.
+
+---
+
+### PL-003 — Requirements Engineering
+
+Project and system objectives are translated into structured, traceable engineering requirements through the development of specifications such as the SOS and SRS.
+
+---
+
+### PL-004 — Architecture Development
+
+Engineering architectures are developed to define the functional, physical, logical, mathematical, mechanical, electrical, control, and decision structures of the AVIA system.
+
+---
+
+### PL-005 — Engineering Analysis
+
+Scientific investigation, mathematical modelling, simulations, and engineering evaluations are conducted to assess proposed concepts and support objective decision-making.
+
+---
+
+### PL-006 — Design and Development
+
+Engineering concepts are refined into detailed designs that remain consistent with approved architectures, requirements, and engineering principles.
+
+---
+
+### PL-007 — Verification and Validation
+
+Engineering evidence is gathered through reviews, simulations, testing, and analysis to verify compliance with requirements and validate achievement of project and system objectives.
+
+---
+
+### PL-008 — Continuous Improvement
+
+Engineering knowledge, architectures, documentation, and methodologies are continuously reviewed and improved through controlled engineering change and lessons learned.
+
+---
+
+## Lifecycle Principles
+
+Throughout all lifecycle phases, the project shall maintain:
+
+- Engineering governance.
+- Objective traceability.
+- Scientific integrity.
+- Knowledge preservation.
+- Continuous validation.
+- Controlled evolution.
+
+---
+
+## Engineering Perspective
+
+The AVIA project lifecycle is iterative rather than strictly linear. Knowledge gained during later phases may require refinement of earlier work through governed engineering change, ensuring that project evolution is driven by evidence while preserving traceability and engineering consistency.
