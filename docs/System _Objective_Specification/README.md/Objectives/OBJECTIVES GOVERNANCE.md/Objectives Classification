@@ -1,0 +1,70 @@
+# 4. Objective Classification
+
+## Purpose
+
+Objective Classification establishes the engineering framework used to organize all System Objectives within the Adaptive Vehicle Intelligence Architecture (AVIA).
+
+The purpose of classification is to improve organization, consistency, scalability, traceability, and long-term management of the objective library.
+
+---
+
+## Classification Principles
+
+System Objectives shall be grouped according to their primary engineering purpose.
+
+Each objective shall belong to one primary objective category while maintaining traceable relationships with other categories where necessary.
+
+Objective categories are organizational structures and shall not restrict engineering interaction between objectives.
+
+---
+
+## Approved Objective Categories
+
+The following objective categories are established for the AVIA project:
+
+| Identifier | Category |
+|------------|----------|
+| SO-F | Functional Objectives |
+| SO-C | Coordination Objectives |
+| SO-P | Performance Objectives |
+| SO-S | Safety Objectives |
+| SO-R | Reliability Objectives |
+| SO-H | Human Interaction Objectives |
+| SO-A | Adaptability Objectives |
+| SO-M | Maintainability Objectives |
+| SO-SC | Scalability Objectives |
+
+---
+
+## Category Responsibilities
+
+Each objective category shall:
+
+- Define objectives within its engineering domain.
+- Maintain internal consistency.
+- Support traceability to the System Objective Specification (SOS).
+- Support derivation of System Requirements.
+- Comply with this governance document.
+
+---
+
+## Cross-Category Relationships
+
+Engineering systems are interdisciplinary.
+
+Therefore, objectives from different categories may support, influence, or depend upon one another.
+
+Such relationships shall be explicitly documented while preserving each objective's primary classification.
+
+---
+
+## Future Categories
+
+Additional objective categories may be introduced only through formal engineering review and approval.
+
+New categories shall:
+
+- Address a distinct engineering purpose.
+- Avoid duplication with existing categories.
+- Maintain compatibility with the governance framework.
+- Preserve traceability across the objective library.
