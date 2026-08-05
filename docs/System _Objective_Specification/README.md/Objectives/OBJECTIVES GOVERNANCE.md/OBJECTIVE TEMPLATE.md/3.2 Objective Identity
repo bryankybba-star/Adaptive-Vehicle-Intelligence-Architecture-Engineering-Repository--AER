@@ -1,0 +1,43 @@
+## 3.2 Objective Identity
+
+### Purpose
+
+The Objective Identity section establishes the permanent engineering identity of a System Objective.
+
+Its purpose is to uniquely distinguish every objective within the AVIA repository and provide the foundational information required for governance, traceability, and lifecycle management.
+
+---
+
+### Standard Fields
+
+Every System Objective shall include the following identity fields:
+
+| Field | Description |
+|--------|-------------|
+| Objective Identifier | Permanent unique identifier (e.g., SO-F-001). |
+| Objective Title | Concise engineering title of the objective. |
+| Objective Category | Approved engineering category. |
+| Objective Type | Classification of the objective where applicable. |
+| Baseline Version | Initial approved version of the objective. |
+| Current Version | Latest approved version. |
+| Lifecycle Status | Current lifecycle stage of the objective. |
+
+---
+
+### Identity Rules
+
+The identity of a System Objective shall:
+
+- Be unique within the repository.
+- Remain permanent throughout the objective lifecycle.
+- Not be reused after retirement.
+- Be independent of implementation details.
+- Remain traceable across all approved revisions.
+
+---
+
+### Engineering Note
+
+Changes to the wording or engineering rationale of an objective do not change its identity.
+
+Only approved governance processes may establish a new objective identity.
