@@ -1,0 +1,21 @@
+# 5. Reference Implementation
+
+## Purpose
+
+This section identifies the official reference implementation of the Objective Template.
+
+Rather than maintaining a fictional example, the AVIA repository uses approved System Objectives as the authoritative examples of template application.
+
+---
+
+## Reference Policy
+
+The first approved System Objective created using this template shall become the baseline reference implementation.
+
+Subsequent objectives shall follow the same approved structure while preserving their own engineering content.
+
+---
+
+## Engineering Note
+
+Using a real System Objective as the reference implementation ensures that repository examples remain accurate, current, and governed by the same engineering standards as every other objective document.
