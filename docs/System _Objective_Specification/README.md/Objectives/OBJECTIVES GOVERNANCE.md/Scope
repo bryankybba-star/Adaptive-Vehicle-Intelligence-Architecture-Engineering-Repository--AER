@@ -1,0 +1,59 @@
+# 2. Scope
+
+## Scope Statement
+
+This document defines the governance framework for all System Objectives developed within the Adaptive Vehicle Intelligence Architecture (AVIA).
+
+Its scope covers the complete management lifecycle of System Objectives, from their creation through approval, maintenance, traceability, version control, and retirement.
+
+---
+
+## In Scope
+
+This document governs:
+
+- The classification of System Objectives.
+- Objective identification and naming conventions.
+- Objective lifecycle management.
+- Objective ownership and responsibilities.
+- Objective relationships and hierarchy.
+- Objective traceability.
+- Objective change management.
+- Objective approval and review processes.
+- Objective version control.
+- Objective retirement and archival.
+- Compliance requirements for all objective documentation.
+
+---
+
+## Out of Scope
+
+This document does not govern:
+
+- Project governance.
+- The System Objective Specification (SOS).
+- The technical content of individual objectives.
+- System requirements.
+- System architecture.
+- Detailed engineering design.
+- Verification procedures.
+- Validation procedures.
+- Project management processes.
+
+These subjects are governed by their respective engineering documents.
+
+---
+
+## Scope Boundary
+
+This document governs **how System Objectives are managed**, not **what the objectives are**.
+
+The definition of objectives remains the responsibility of the objective category documents, while the governance of those objectives remains the responsibility of this document.
+
+---
+
+## Relationship to Parent and Child Documents
+
+This document operates under the authority of the System Objective Specification (SOS) and provides governance to all objective category documents within the `objectives/` subdomain.
+
+It serves as the management layer between the governing specification (SOS) and the detailed objective definitions.
