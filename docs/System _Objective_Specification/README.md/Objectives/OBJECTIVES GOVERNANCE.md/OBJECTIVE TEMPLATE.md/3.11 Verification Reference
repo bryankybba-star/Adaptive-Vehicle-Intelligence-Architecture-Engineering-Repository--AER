@@ -1,0 +1,41 @@
+## 3.11 Verification Reference
+
+### Purpose
+
+The Verification Reference section identifies the approved verification approach and associated engineering artifacts used to demonstrate that a System Objective has been satisfied.
+
+Its purpose is to establish a consistent link between the objective and its verification evidence without embedding detailed verification procedures.
+
+---
+
+### Standard Fields
+
+Every System Objective shall include the following fields:
+
+| Field | Description |
+|--------|-------------|
+| Verification Method | Approved method used to verify the objective (e.g., Inspection, Analysis, Demonstration, Test). |
+| Verification Reference | Reference to the governing verification document or plan. |
+| Verification Criteria | High-level criteria defining successful verification. |
+| Verification Status | Current verification state of the objective. |
+| Verification Evidence | Reference to the evidence produced during verification, where applicable. |
+
+---
+
+### Verification Rules
+
+Verification information shall:
+
+- Reference approved verification artifacts.
+- Use only approved verification methods.
+- Remain consistent with the Objective Governance framework.
+- Be updated as verification activities progress.
+- Preserve links to all verification evidence.
+
+---
+
+### Engineering Note
+
+Verification demonstrates that the system has met the objective as specified.
+
+Detailed verification procedures, test cases, and execution records belong in dedicated verification documents rather than within the objective itself.
