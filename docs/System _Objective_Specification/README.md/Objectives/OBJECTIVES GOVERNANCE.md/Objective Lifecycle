@@ -1,0 +1,95 @@
+# 6. Objective Lifecycle
+
+## Purpose
+
+The Objective Lifecycle defines the controlled engineering stages through which every System Objective progresses from its initial proposal to its eventual retirement.
+
+The lifecycle ensures that all objectives are developed, reviewed, approved, implemented, maintained, and retired in a consistent, traceable, and disciplined manner.
+
+---
+
+## Lifecycle Principles
+
+The lifecycle shall:
+
+- Ensure engineering discipline throughout objective development.
+- Support complete traceability.
+- Preserve historical records.
+- Prevent uncontrolled modifications.
+- Promote continuous engineering improvement.
+
+---
+
+## Lifecycle Stages
+
+### Stage 1 — Proposed
+
+An engineering need for a new System Objective has been identified but has not yet undergone formal engineering review.
+
+---
+
+### Stage 2 — Draft
+
+The objective has been documented in sufficient detail for engineering evaluation and discussion.
+
+---
+
+### Stage 3 — Under Review
+
+The objective is undergoing technical, engineering, and governance review to assess its necessity, consistency, and alignment with the AVIA engineering framework.
+
+---
+
+### Stage 4 — Approved
+
+The objective has successfully completed the required review process and is authorized for use within the engineering repository.
+
+---
+
+### Stage 5 — Active
+
+The approved objective is in active use and may be referenced by requirements, architectures, analyses, verification, and validation activities.
+
+---
+
+### Stage 6 — Revised
+
+The objective has undergone an approved modification while preserving its engineering history and traceability.
+
+---
+
+### Stage 7 — Deprecated
+
+The objective is no longer recommended for new engineering work but is retained to preserve compatibility and historical traceability.
+
+---
+
+### Stage 8 — Retired
+
+The objective has been formally withdrawn from active use following engineering review. Retired objectives remain archived for historical reference and traceability.
+
+---
+
+## Lifecycle Transitions
+
+Objectives shall only transition between lifecycle stages through the governance processes defined within this document.
+
+Every transition shall:
+
+- Be documented.
+- Be justified.
+- Preserve traceability.
+- Maintain revision history.
+
+---
+
+## Lifecycle Traceability
+
+Each objective shall maintain a record of:
+
+- Current lifecycle stage.
+- Previous lifecycle stages.
+- Date of transition.
+- Reason for transition.
+- Approving authority.
+- Related revision records.
