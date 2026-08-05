@@ -1,0 +1,45 @@
+## 3.6 Objective Statement
+
+### Purpose
+
+The Objective Statement section defines the engineering outcome that the system is required to achieve.
+
+Its purpose is to communicate the intent of the System Objective in a clear, precise, measurable, and solution-independent manner.
+
+The Objective Statement is the primary engineering requirement of the objective and serves as the foundation for subsequent engineering activities, including requirements development, architecture, verification, and validation.
+
+---
+
+### Standard Fields
+
+Every System Objective shall include the following fields:
+
+| Field | Description |
+|--------|-------------|
+| Objective Statement | The formal statement describing the required engineering outcome. |
+| Objective Intent | A concise explanation of the purpose of the objective. |
+| Success Criteria | The measurable conditions indicating successful achievement of the objective. |
+| Engineering Constraints | Constraints that define the acceptable boundaries of the objective, where applicable. |
+| Assumptions | Documented assumptions upon which the objective is based, where applicable. |
+
+---
+
+### Objective Statement Rules
+
+The Objective Statement shall:
+
+- Describe **what** the system shall achieve.
+- Remain solution-independent.
+- Be clear and unambiguous.
+- Be measurable or objectively assessable.
+- Express a single engineering intent.
+- Avoid combining multiple independent objectives into one statement.
+- Be consistent with the Project Charter and the System Objective Specification.
+
+---
+
+### Engineering Note
+
+The Objective Statement defines the desired engineering outcome.
+
+It does not prescribe implementation methods, architectural solutions, technologies, or design decisions unless explicitly governed by higher-level engineering authority.
