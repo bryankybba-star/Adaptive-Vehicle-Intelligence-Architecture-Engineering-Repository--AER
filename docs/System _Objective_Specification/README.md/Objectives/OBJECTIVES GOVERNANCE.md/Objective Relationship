@@ -1,0 +1,86 @@
+# 7. Objective Relationships
+
+## Purpose
+
+The Objective Relationships framework defines how System Objectives are connected within the Adaptive Vehicle Intelligence Architecture (AVIA).
+
+Its purpose is to ensure that objectives form a coherent engineering network, enabling traceability, consistency, and coordinated system development.
+
+---
+
+## Relationship Principles
+
+Objective relationships shall:
+
+- Be explicitly identified and documented.
+- Support engineering traceability.
+- Preserve solution independence.
+- Avoid unnecessary duplication.
+- Reflect genuine engineering dependencies.
+
+---
+
+## Relationship Types
+
+The following relationship types are recognized within the AVIA objective library.
+
+### Parent–Child Relationship
+
+A parent objective establishes a broader engineering intent.
+
+Child objectives refine or decompose that intent into more specific objectives.
+
+---
+
+### Supporting Relationship
+
+An objective may support the achievement of another objective without being derived directly from it.
+
+Supporting relationships shall be documented where they contribute to engineering understanding.
+
+---
+
+### Dependency Relationship
+
+An objective may depend upon the existence or completion of another objective.
+
+Dependencies shall be explicitly identified to support planning, analysis, and traceability.
+
+---
+
+### Cross-Category Relationship
+
+Objectives belonging to different categories may interact where engineering responsibilities overlap.
+
+Cross-category relationships shall preserve each objective's primary classification while documenting the engineering interaction.
+
+---
+
+## Relationship Rules
+
+All documented relationships shall:
+
+- Be technically justified.
+- Be traceable.
+- Remain consistent with the governance principles.
+- Avoid circular dependencies unless explicitly justified and reviewed.
+
+---
+
+## Relationship Documentation
+
+Each objective shall identify, where applicable:
+
+- Parent objective(s).
+- Child objective(s).
+- Supporting objective(s).
+- Dependent objective(s).
+- Cross-category relationships.
+
+---
+
+## Engineering Perspective
+
+Objective relationships represent engineering knowledge rather than implementation details.
+
+They exist to improve understanding, coordination, and traceability throughout the engineering lifecycle.
