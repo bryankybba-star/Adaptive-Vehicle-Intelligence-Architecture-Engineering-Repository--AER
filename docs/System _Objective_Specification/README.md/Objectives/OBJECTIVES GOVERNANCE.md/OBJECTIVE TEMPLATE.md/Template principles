@@ -1,0 +1,73 @@
+# 2. Template Principles
+
+## Purpose
+
+This section establishes the engineering principles that govern the use of the Objective Template.
+
+These principles ensure that every System Objective is documented consistently, supports engineering quality, and remains compatible with the Objective Governance framework.
+
+---
+
+## Template Principles
+
+### TP-01 — Standardized Structure
+
+Every System Objective shall follow the structure defined by this template.
+
+No mandatory section shall be omitted unless explicitly authorized by the applicable governance framework.
+
+---
+
+### TP-02 — Consistency
+
+The same information shall appear in the same location and format across all objective documents to promote readability, maintainability, and engineering consistency.
+
+---
+
+### TP-03 — Completeness
+
+Every mandatory field shall be completed before an objective is submitted for engineering review.
+
+Incomplete objectives shall not progress through the approval process.
+
+---
+
+### TP-04 — Solution Independence
+
+Objective statements shall describe the required engineering outcome and shall not prescribe implementation methods unless governed by a higher-level engineering decision.
+
+---
+
+### TP-05 — Traceability
+
+Every objective shall maintain complete traceability to its governing documents, related objectives, and derived engineering artifacts.
+
+---
+
+### TP-06 — Reusability
+
+The template shall support all approved objective categories without requiring structural modification.
+
+---
+
+### TP-07 — Scalability
+
+The template shall remain suitable for use throughout the growth of the AVIA repository, regardless of the number of objectives managed.
+
+---
+
+### TP-08 — Extensibility
+
+Additional fields or sections may be introduced through approved governance processes without compromising compatibility with previously approved objective documents.
+
+---
+
+### TP-09 — Clarity
+
+Objective documentation shall use precise, unambiguous, and consistent engineering language.
+
+---
+
+### TP-10 — Governance Compliance
+
+Every objective created using this template shall comply with the requirements defined in `OBJECTIVE_GOVERNANCE.md`.
