@@ -1,0 +1,37 @@
+## 3.1 Document Information
+
+### Purpose
+
+The Document Information section records the repository and document management metadata associated with a System Objective.
+
+Its purpose is to uniquely identify the objective document as an engineering artifact and support governance, version control, and traceability.
+
+---
+
+### Standard Fields
+
+Every System Objective document shall include the following fields:
+
+| Field | Description |
+|--------|-------------|
+| Document Title | Official title of the objective document. |
+| Document Identifier | Unique identifier for the document. |
+| Objective Identifier | Permanent identifier of the System Objective (e.g., SO-F-001). |
+| Objective Category | Approved objective category. |
+| Document Status | Current lifecycle status of the document. |
+| Version | Current approved document version. |
+| Repository | Repository in which the document is maintained. |
+| Parent Domain | System Objective Specification (SOS). |
+| Parent Folder | Engineering category folder containing the objective. |
+| Owner | Responsible governance role. |
+| Approval Authority | Authority responsible for approval. |
+| Effective Date | Date on which the current version becomes effective. |
+| Last Updated | Date of the latest approved revision. |
+
+---
+
+### Requirements
+
+The Document Information section shall appear at the beginning of every System Objective document.
+
+Repository metadata shall remain consistent with the governance and version control standards established for AVIA.
