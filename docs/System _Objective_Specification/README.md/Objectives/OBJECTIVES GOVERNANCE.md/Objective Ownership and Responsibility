@@ -1,0 +1,92 @@
+# 9. Objective Ownership and Responsibilities
+
+## Purpose
+
+This section defines the governance roles and responsibilities associated with the creation, review, approval, maintenance, and retirement of System Objectives within the Adaptive Vehicle Intelligence Architecture (AVIA).
+
+The purpose is to establish accountability while maintaining a solution-independent governance framework.
+
+---
+
+## Governance Principles
+
+Objective ownership shall:
+
+- Be clearly assigned.
+- Be traceable.
+- Support engineering accountability.
+- Preserve governance integrity.
+- Enable controlled decision-making.
+
+---
+
+## Governance Roles
+
+The governance framework recognizes the following roles:
+
+### Objective Author
+
+Responsible for:
+
+- Proposing new objectives.
+- Preparing objective documentation.
+- Providing engineering rationale.
+- Responding to review comments.
+
+---
+
+### Objective Reviewer
+
+Responsible for:
+
+- Evaluating technical consistency.
+- Assessing alignment with governance principles.
+- Identifying conflicts or duplication.
+- Recommending approval or revision.
+
+---
+
+### Objective Approver
+
+Responsible for:
+
+- Granting formal approval.
+- Confirming governance compliance.
+- Authorizing lifecycle transitions where applicable.
+
+---
+
+### Objective Maintainer
+
+Responsible for:
+
+- Maintaining approved objectives.
+- Updating traceability records.
+- Managing revisions.
+- Preserving objective history.
+
+---
+
+## Responsibility Rules
+
+Responsibilities shall:
+
+- Be explicitly assigned before approval.
+- Remain traceable throughout the objective lifecycle.
+- Be transferred only through documented governance processes.
+
+---
+
+## Separation of Responsibilities
+
+Where practical, the roles of Author, Reviewer, and Approver should remain distinct to promote independent engineering review and reduce the risk of bias.
+
+The governance framework may permit one individual to perform multiple roles when appropriate for the project's size or stage, provided that the rationale is documented and engineering integrity is preserved.
+
+---
+
+## Engineering Perspective
+
+Ownership within AVIA represents responsibility for governance activities rather than ownership of engineering ideas.
+
+The purpose of assigning responsibilities is to preserve accountability, transparency, and continuity throughout the lifecycle of every System Objective.
