@@ -1,0 +1,41 @@
+## 3.13 Engineering Notes
+
+### Purpose
+
+The Engineering Notes section records supplementary engineering information that supports the understanding, interpretation, or future evolution of a System Objective.
+
+Its purpose is to preserve valuable engineering knowledge while ensuring that the formal objective remains concise, stable, and solution-independent.
+
+---
+
+### Standard Fields
+
+Every System Objective may include the following fields where applicable:
+
+| Field | Description |
+|--------|-------------|
+| Engineering Observation | Relevant observations supporting the objective. |
+| Engineering Considerations | Important considerations for future engineering activities. |
+| Assumptions | Additional assumptions not included elsewhere. |
+| Known Limitations | Identified limitations relevant to the objective. |
+| Future Considerations | Potential future enhancements or areas requiring further investigation. |
+
+---
+
+### Engineering Notes Rules
+
+Engineering Notes shall:
+
+- Support, but not modify, the formal Objective Statement.
+- Remain technically relevant.
+- Avoid introducing new requirements.
+- Avoid prescribing implementation methods unless explicitly authorized.
+- Be reviewed whenever the objective is revised.
+
+---
+
+### Engineering Note
+
+Engineering Notes preserve valuable engineering knowledge that may assist future engineers in understanding the context of an objective.
+
+They are informative rather than normative and shall not be interpreted as additional engineering requirements.
