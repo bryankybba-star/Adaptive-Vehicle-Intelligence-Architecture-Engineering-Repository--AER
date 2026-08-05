@@ -1,0 +1,40 @@
+## 3.3 Lifecycle Information
+
+### Purpose
+
+The Lifecycle Information section records the current engineering lifecycle status of a System Objective and its progression through the approved governance process.
+
+Its purpose is to provide visibility into the objective's maturity, approval status, and engineering readiness.
+
+---
+
+### Standard Fields
+
+Every System Objective shall include the following lifecycle fields:
+
+| Field | Description |
+|--------|-------------|
+| Current Lifecycle Stage | Current approved lifecycle stage of the objective. |
+| Lifecycle Status Date | Date the current stage became effective. |
+| Previous Lifecycle Stage | Immediately preceding lifecycle stage, where applicable. |
+| Transition Reason | Engineering justification for the latest lifecycle transition. |
+| Approval Reference | Reference to the approval authorizing the transition. |
+
+---
+
+### Lifecycle Rules
+
+Lifecycle information shall:
+
+- Reflect the current approved status of the objective.
+- Be updated only through approved governance processes.
+- Preserve historical lifecycle transitions.
+- Remain consistent with the Objective Governance framework.
+
+---
+
+### Engineering Note
+
+Lifecycle information records the governance state of an objective.
+
+It does not describe changes to the engineering content, which are managed through versioning and change history.
