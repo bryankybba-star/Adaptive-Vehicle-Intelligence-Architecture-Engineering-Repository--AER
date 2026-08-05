@@ -1,0 +1,43 @@
+## 3.10 Traceability
+
+### Purpose
+
+The Traceability section establishes the documented links between a System Objective and the engineering artifacts that govern, derive from, verify, validate, or otherwise reference it.
+
+Its purpose is to ensure complete engineering traceability throughout the lifecycle of the objective.
+
+---
+
+### Standard Fields
+
+Every System Objective shall include the following fields:
+
+| Field | Description |
+|--------|-------------|
+| Parent Governing Document | Governing document authorizing the objective. |
+| Source Reference | Source from which the objective originates, where applicable. |
+| Derived Requirements | Requirements derived from the objective. |
+| Architectural References | Architecture documents implementing or supporting the objective. |
+| Verification References | Verification artifacts linked to the objective. |
+| Validation References | Validation artifacts linked to the objective. |
+| Related Engineering Records | Other approved engineering records associated with the objective. |
+
+---
+
+### Traceability Rules
+
+Traceability shall:
+
+- Be maintained throughout the objective lifecycle.
+- Reference only approved engineering artifacts.
+- Preserve bidirectional traceability where required.
+- Be updated whenever linked artifacts change.
+- Support engineering audits and impact analysis.
+
+---
+
+### Engineering Note
+
+Traceability enables engineers to understand how a System Objective is connected to the wider AVIA engineering ecosystem.
+
+It supports change impact analysis, verification planning, validation activities, and long-term repository integrity.
