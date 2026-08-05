@@ -1,0 +1,41 @@
+## 3.9 Relationships
+
+### Purpose
+
+The Relationships section documents the engineering relationships between a System Objective and other approved objectives within the AVIA repository.
+
+Its purpose is to preserve dependency, hierarchy, and interaction information, enabling engineers to understand how objectives collectively contribute to the overall system architecture.
+
+---
+
+### Standard Fields
+
+Every System Objective shall include the following fields:
+
+| Field | Description |
+|--------|-------------|
+| Parent Objective(s) | Higher-level objective(s) from which this objective is derived, where applicable. |
+| Child Objective(s) | Lower-level objective(s) derived from this objective, where applicable. |
+| Supporting Objective(s) | Objectives that contribute to achieving this objective. |
+| Dependent Objective(s) | Objectives that depend on this objective for successful achievement. |
+| Related Objective(s) | Other objectives with significant engineering relationships. |
+
+---
+
+### Relationship Rules
+
+Relationships shall:
+
+- Reference only approved System Objectives.
+- Be supported by engineering justification where required.
+- Maintain bidirectional consistency where applicable.
+- Be reviewed whenever related objectives are added, revised, or retired.
+- Preserve traceability across the objective network.
+
+---
+
+### Engineering Note
+
+Relationships describe engineering connections between objectives.
+
+They do not establish governance authority or ownership, which are defined separately within the governance framework.
