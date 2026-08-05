@@ -1,0 +1,62 @@
+# 4. Template Usage Rules
+
+## Purpose
+
+This section establishes the rules governing the use of the Objective Template throughout the Adaptive Vehicle Intelligence Architecture (AVIA) repository.
+
+Its purpose is to ensure that all System Objectives are created, maintained, and revised in a consistent and controlled manner.
+
+---
+
+## Usage Rules
+
+### TUR-01 — Mandatory Use
+
+Every approved System Objective shall be documented using this template.
+
+No alternative document structure shall be used unless formally approved through the AVIA governance process.
+
+---
+
+### TUR-02 — Structural Integrity
+
+The mandatory sections of this template shall not be removed, renamed, or reordered without formal governance approval.
+
+Approved extensions may be added where necessary without affecting the standard structure.
+
+---
+
+### TUR-03 — Consistent Terminology
+
+All objectives shall use the approved engineering terminology and naming standards adopted by the AVIA repository.
+
+---
+
+### TUR-04 — Completeness
+
+All mandatory fields shall be completed before an objective enters the engineering review process.
+
+Optional fields may be omitted only when they are not applicable.
+
+---
+
+### TUR-05 — Governance Compliance
+
+Every objective created using this template shall comply with the requirements established in:
+
+- OBJECTIVE_GOVERNANCE.md
+- System Objective Specification (SOS)
+
+---
+
+### TUR-06 — Controlled Modification
+
+Changes to this template shall be made only through the approved governance and change management process.
+
+Existing objective documents shall remain traceable to the template version from which they were created.
+
+---
+
+### TUR-07 — Repository Consistency
+
+The template shall be used consistently across all objective categories to preserve uniformity throughout the AVIA objective library.
