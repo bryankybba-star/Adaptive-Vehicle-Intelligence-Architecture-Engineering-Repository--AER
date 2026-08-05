@@ -1,0 +1,41 @@
+## 3.7 Engineering Rationale
+
+### Purpose
+
+The Engineering Rationale section documents the engineering reasoning that justifies the existence of a System Objective.
+
+Its purpose is to preserve the intent, context, and motivation behind the objective, enabling future engineering decisions to remain consistent with the original design philosophy.
+
+---
+
+### Standard Fields
+
+Every System Objective shall include the following fields:
+
+| Field | Description |
+|--------|-------------|
+| Engineering Need | The engineering problem or need addressed by the objective. |
+| Engineering Context | The system context in which the objective applies. |
+| Engineering Justification | The reasoning supporting the inclusion of the objective. |
+| Expected Engineering Benefit | The anticipated benefit or value created by achieving the objective. |
+| Dependencies and Assumptions | Engineering assumptions or dependencies influencing the rationale, where applicable. |
+
+---
+
+### Engineering Rationale Rules
+
+The Engineering Rationale shall:
+
+- Explain why the objective is necessary.
+- Be technically justified.
+- Remain independent of implementation details.
+- Be consistent with the Project Charter and System Objective Specification.
+- Support future engineering review and decision-making.
+
+---
+
+### Engineering Note
+
+The Engineering Rationale complements the Objective Statement by documenting the reasoning behind the objective rather than the objective itself.
+
+It provides historical context and supports informed evolution of the AVIA architecture without losing the original engineering intent.
