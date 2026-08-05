@@ -1,0 +1,71 @@
+# 16. References
+
+## Purpose
+
+This section identifies the engineering documents that establish the authority, context, and relationships of the Objective Governance document within the Adaptive Vehicle Intelligence Architecture (AVIA) repository.
+
+These references support consistency, traceability, and navigation across the engineering documentation framework.
+
+---
+
+## Parent References
+
+The following documents provide governing authority for this document:
+
+| Document | Relationship |
+|----------|--------------|
+| PROJECT_CHARTER.md | Establishes the overall governance of the AVIA project. |
+| SOS.md | Defines the System Objectives governed by this document. |
+
+---
+
+## Related References
+
+The following documents are closely related to this governance framework:
+
+| Document | Relationship |
+|----------|--------------|
+| README.md (System Objective Specification) | Entry point to the System Objective Specification domain. |
+| README.md (Objectives) | Entry point to the Objectives subdomain. |
+
+---
+
+## Governed References
+
+This document governs the following objective category documents:
+
+- Functional_Objectives.md
+- Coordination_Objectives.md
+- Performance_Objectives.md
+- Safety_Objectives.md
+- Reliability_Objectives.md
+- Human_Interaction_Objectives.md
+- Adaptability_Objectives.md
+- Maintainability_Objectives.md
+- Scalability_Objectives.md
+
+Additional approved objective category documents shall also fall under this governance framework.
+
+---
+
+## Future References
+
+As the AVIA repository evolves, this document may establish relationships with additional engineering governance documents, including but not limited to:
+
+- Requirement Governance
+- Architecture Governance
+- Verification Governance
+- Validation Governance
+
+These references shall be incorporated through the project's approved governance and change management processes.
+
+---
+
+## Reference Management
+
+References shall:
+
+- Remain accurate and current.
+- Be reviewed following approved document revisions.
+- Preserve traceability between related engineering documents.
+- Support repository navigation and engineering understanding.
