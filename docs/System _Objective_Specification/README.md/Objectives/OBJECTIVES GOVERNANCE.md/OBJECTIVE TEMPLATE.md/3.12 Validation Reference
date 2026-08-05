@@ -1,0 +1,41 @@
+## 3.12 Validation Reference
+
+### Purpose
+
+The Validation Reference section identifies the approved validation approach and associated engineering artifacts used to demonstrate that a System Objective fulfills its intended engineering need.
+
+Its purpose is to establish a consistent link between the objective and its validation evidence without embedding detailed validation procedures.
+
+---
+
+### Standard Fields
+
+Every System Objective shall include the following fields:
+
+| Field | Description |
+|--------|-------------|
+| Validation Method | Approved method used to validate the objective. |
+| Validation Reference | Reference to the governing validation document or plan. |
+| Validation Criteria | High-level criteria defining successful validation. |
+| Validation Status | Current validation state of the objective. |
+| Validation Evidence | Reference to the evidence produced during validation, where applicable. |
+
+---
+
+### Validation Rules
+
+Validation information shall:
+
+- Reference approved validation artifacts.
+- Remain consistent with the Objective Governance framework.
+- Be updated as validation activities progress.
+- Preserve links to all validation evidence.
+- Demonstrate that the objective satisfies the intended engineering purpose.
+
+---
+
+### Engineering Note
+
+Validation confirms that achieving the objective delivers the intended value within the system context.
+
+Detailed validation procedures, operational assessments, and acceptance records shall be maintained in dedicated validation documents rather than within the objective itself.
