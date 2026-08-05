@@ -1,0 +1,35 @@
+# 17. Glossary
+
+## Purpose
+
+This glossary defines the key governance terms used within the Objective Governance document.
+
+Its purpose is to promote consistent interpretation, communication, and application of governance concepts throughout the Adaptive Vehicle Intelligence Architecture (AVIA) repository.
+
+---
+
+| Term | Definition |
+|------|------------|
+| Approval | Formal authorization for an objective or document to become part of the official engineering repository. |
+| Authority | The documented source that grants governance responsibility to a document or engineering artifact. |
+| Change Management | The controlled process for proposing, reviewing, approving, and implementing changes. |
+| Classification | The organization of System Objectives into approved engineering categories. |
+| Compliance | Conformance with the governance requirements established by approved engineering documents. |
+| Governance | The framework of rules, responsibilities, and processes used to manage engineering artifacts. |
+| Lifecycle | The defined sequence of stages through which an engineering artifact progresses from creation to retirement. |
+| Objective | A statement describing what the system must achieve without prescribing how it will be implemented. |
+| Objective Category | A grouping of objectives according to their primary engineering purpose. |
+| Objective Identifier | The permanent, unique identifier assigned to a System Objective. |
+| Repository | The structured collection of engineering documents, records, and knowledge that make up the AVIA project. |
+| Scope | The boundaries defining what a document governs and what it does not govern. |
+| Solution Independence | The principle that objectives describe required outcomes rather than implementation methods. |
+| Traceability | The ability to follow relationships between engineering artifacts throughout their lifecycle. |
+| Version | A uniquely identified revision of an engineering artifact that preserves its development history. |
+
+---
+
+## Glossary Maintenance
+
+New terms may be added through the approved governance and change management process.
+
+Existing definitions shall only be modified following formal engineering review and approval to preserve consistency across the AVIA repository.
