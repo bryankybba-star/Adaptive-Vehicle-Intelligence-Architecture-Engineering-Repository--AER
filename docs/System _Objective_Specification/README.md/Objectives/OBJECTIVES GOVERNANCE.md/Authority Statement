@@ -1,0 +1,70 @@
+## Authority Statement
+
+### Source of Authority
+
+This document derives its authority from the System Objective Specification (SOS), which is the governing specification for all system objectives within the Adaptive Vehicle Intelligence Architecture (AVIA).
+
+The SOS delegates the governance, management, and control of system objectives to this document.
+
+---
+
+### Scope of Authority
+
+This document governs the lifecycle and management of all system objectives contained within the Objectives subdomain.
+
+Its authority includes, but is not limited to:
+
+- Objective classification.
+- Objective identification.
+- Objective creation.
+- Objective modification.
+- Objective approval.
+- Objective version control.
+- Objective traceability.
+- Objective retirement.
+- Compliance requirements for objective documentation.
+
+---
+
+### Authority Boundaries
+
+This document does not:
+
+- Modify or replace the Project Charter.
+- Modify or replace the System Objective Specification (SOS).
+- Define system requirements.
+- Define engineering architectures.
+- Define verification or validation procedures.
+- Define the technical content of individual objectives.
+
+Those responsibilities remain with their respective governing documents.
+
+---
+
+### Compliance Requirement
+
+All objective category documents and every individual system objective developed within the AVIA repository shall comply with the governance principles and requirements established in this document.
+
+Non-compliance shall require formal engineering review before approval.
+
+---
+
+### Delegated Authority
+
+Authority flows through the AVIA engineering hierarchy as follows:
+
+Project Charter
+→ System Objective Specification (SOS)
+→ Objective Governance
+→ Objective Category Documents
+→ Individual System Objectives
+
+Each level governs the level directly beneath it while remaining accountable to the level above.
+
+---
+
+### Engineering Perspective
+
+The Objective Governance document exists to ensure that all system objectives are created, managed, reviewed, and maintained under a consistent engineering framework.
+
+Governance within AVIA is based on explicit authority, complete traceability, disciplined change management, and solution-independent systems engineering.
