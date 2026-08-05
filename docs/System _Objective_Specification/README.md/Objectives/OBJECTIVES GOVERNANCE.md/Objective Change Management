@@ -1,0 +1,94 @@
+# 10. Objective Change Management
+
+## Purpose
+
+This section establishes the governance framework for managing changes to System Objectives throughout their lifecycle.
+
+Its purpose is to ensure that all modifications are evaluated, documented, approved, and implemented in a controlled and traceable manner.
+
+---
+
+## Change Management Principles
+
+Changes to System Objectives shall:
+
+- Be justified by documented engineering evidence.
+- Preserve objective traceability.
+- Maintain engineering consistency.
+- Protect repository integrity.
+- Be subject to formal review before approval.
+
+---
+
+## Types of Changes
+
+The governance framework recognizes the following categories of change:
+
+### Editorial Changes
+
+Changes that improve clarity, formatting, grammar, or presentation without altering the engineering intent of the objective.
+
+---
+
+### Minor Engineering Changes
+
+Changes that refine or clarify an objective while preserving its original engineering purpose.
+
+---
+
+### Major Engineering Changes
+
+Changes that significantly affect the engineering intent, scope, relationships, or expected outcomes of an objective.
+
+Major changes shall require formal engineering review and approval before implementation.
+
+---
+
+## Change Process
+
+Every proposed change shall follow a controlled process:
+
+1. Change proposal.
+2. Engineering justification.
+3. Impact assessment.
+4. Technical review.
+5. Governance review.
+6. Approval or rejection.
+7. Documentation update.
+8. Traceability update.
+
+---
+
+## Impact Assessment
+
+Before approval, proposed changes shall be evaluated for their impact on:
+
+- Related objectives.
+- System requirements.
+- Engineering architectures.
+- Verification activities.
+- Validation activities.
+- Repository consistency.
+
+---
+
+## Change Records
+
+Every approved change shall record:
+
+- Objective identifier.
+- Description of the change.
+- Reason for the change.
+- Change classification.
+- Approval date.
+- Approving authority.
+- Updated version.
+- Related engineering artifacts.
+
+---
+
+## Engineering Perspective
+
+Objective change is a normal part of engineering evolution.
+
+The purpose of change management is not to prevent change, but to ensure that change occurs in a disciplined, transparent, and traceable manner that preserves the integrity of the AVIA engineering repository.
