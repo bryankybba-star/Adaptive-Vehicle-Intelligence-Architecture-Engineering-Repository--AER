@@ -1,0 +1,40 @@
+## 3.8 Classification
+
+### Purpose
+
+The Classification section records the engineering classification of a System Objective within the approved AVIA objective taxonomy.
+
+Its purpose is to ensure that every objective is consistently organized, searchable, and managed according to its primary engineering purpose.
+
+---
+
+### Standard Fields
+
+Every System Objective shall include the following fields:
+
+| Field | Description |
+|--------|-------------|
+| Primary Category | The approved engineering category to which the objective belongs. |
+| Secondary Classification | Additional approved classification, where applicable. |
+| Engineering Domain | The engineering domain impacted by the objective. |
+| Classification Justification | Explanation supporting the assigned classification. |
+
+---
+
+### Classification Rules
+
+The classification shall:
+
+- Assign exactly one primary category.
+- Use only approved engineering categories.
+- Be supported by documented engineering justification.
+- Remain consistent with the Objective Governance framework.
+- Be reviewed whenever the objective undergoes significant engineering revision.
+
+---
+
+### Engineering Note
+
+Classification supports repository organization and engineering navigation.
+
+It does not alter the meaning, authority, or identity of the objective.
