@@ -1,0 +1,40 @@
+## 3.4 Version Information
+
+### Purpose
+
+The Version Information section records the revision history and current approved version of a System Objective.
+
+Its purpose is to preserve engineering history, support traceability across revisions, and clearly identify the current authoritative version of the objective.
+
+---
+
+### Standard Fields
+
+Every System Objective shall include the following version fields:
+
+| Field | Description |
+|--------|-------------|
+| Current Version | Current approved version of the objective (e.g., v1.0). |
+| Baseline Version | First approved version of the objective. |
+| Version Date | Date the current version became effective. |
+| Version Summary | Brief summary of the changes introduced in the current version. |
+| Previous Version | Reference to the immediately preceding version, where applicable. |
+
+---
+
+### Version Rules
+
+Version information shall:
+
+- Follow the approved versioning standard.
+- Be updated only after formal approval.
+- Preserve links to previous approved versions.
+- Never overwrite historical version information.
+
+---
+
+### Engineering Note
+
+Version information records the evolution of the objective's engineering content.
+
+The objective's identity remains unchanged regardless of the number of approved versions.
