@@ -1,0 +1,36 @@
+# 6. References
+
+## Purpose
+
+This section identifies the governing and supporting engineering documents that establish the authority, structure, and application of the Objective Template.
+
+These references ensure that the template remains aligned with the broader AVIA engineering framework.
+
+---
+
+## Governing References
+
+The following documents govern the use of this template:
+
+- Project Charter
+- System Objective Specification (SOS)
+- OBJECTIVE_GOVERNANCE.md
+
+---
+
+## Supporting References
+
+The following documents support the implementation and continued evolution of this template:
+
+- Objective Naming Standard *(to be developed)*
+- Repository Governance Standards
+- AVIA Documentation Standards
+- Version Control Standards
+
+---
+
+## Engineering Note
+
+Where conflicts arise, governing references take precedence over supporting references.
+
+All revisions to this template shall remain consistent with the governing documents listed above.
