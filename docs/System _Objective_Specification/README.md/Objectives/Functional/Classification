@@ -1,0 +1,33 @@
+## Classification
+
+### Primary Category
+
+Functional Objective
+
+---
+
+### Secondary Classification
+
+Root Objective
+
+---
+
+### Engineering Domain
+
+Adaptive Vehicle Intelligence
+
+---
+
+### Classification Justification
+
+SO-F-001 establishes the highest-level functional capability of the Adaptive Vehicle Intelligence Architecture (AVIA).
+
+It defines the primary system function from which all subsequent Functional Objectives are derived. As such, it serves as the root objective for the Functional Objective category and provides the engineering foundation for the functional objective hierarchy.
+
+---
+
+### Classification Notes
+
+- This objective is the parent of all derived Functional Objectives.
+- It is not derived from another Functional Objective.
+- Changes to this objective may have cascading effects on all descendant Functional Objectives and shall therefore undergo the highest level of engineering review.
