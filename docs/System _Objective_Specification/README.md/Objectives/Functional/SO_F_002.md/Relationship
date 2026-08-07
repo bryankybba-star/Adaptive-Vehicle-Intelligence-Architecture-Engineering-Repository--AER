@@ -1,0 +1,69 @@
+## Relationships
+
+### Parent Objective(s)
+
+| Identifier | Title | Relationship |
+|------------|-------|--------------|
+| SO-F-001 | Provide Adaptive Vehicle Intelligence | Parent Objective |
+
+SO-F-002 is directly derived from SO-F-001 and refines the root functional capability by establishing the system's environmental perception capability.
+
+---
+
+### Child Objective(s)
+
+Child objectives shall be derived from SO-F-002 as the perception domain is decomposed.
+
+Planned child objectives may include:
+
+| Identifier | Title | Relationship |
+|------------|-------|--------------|
+| TBD | Acquire Environmental Information | Direct Child |
+| TBD | Observe Vehicle State | Direct Child |
+| TBD | Observe Human State | Direct Child |
+| TBD | Detect Environmental Changes | Direct Child |
+| TBD | Maintain Situational Observation | Direct Child |
+| TBD | Assess Observation Quality | Direct Child |
+
+These represent architectural intent only and are not yet approved objectives.
+
+---
+
+### Supporting Objective(s)
+
+None at this stage.
+
+Supporting relationships will be defined as additional objective categories (e.g., Safety, Coordination, Performance) are developed.
+
+---
+
+### Dependent Objective(s)
+
+The following objectives are expected to depend on the successful realization of SO-F-002:
+
+| Identifier | Title | Dependency |
+|------------|-------|------------|
+| SO-F-003 | Interpret the Operating Context | Direct Dependency |
+| SO-F-004 | Generate Adaptive Decisions | Indirect Dependency |
+| SO-F-005 | Execute Approved Actions | Indirect Dependency |
+
+---
+
+### Related Objective(s)
+
+Relationships with objectives from other engineering domains will be established as those domains are created.
+
+Examples include:
+
+- Safety Objectives
+- Coordination Objectives
+- Performance Objectives
+- Reliability Objectives
+
+---
+
+### Relationship Notes
+
+SO-F-002 serves as the entry point of the operational capability chain within the Functional Objective hierarchy.
+
+Changes to this objective may propagate through all downstream Functional Objectives that rely on environmental observations as the basis for adaptive behavior.
