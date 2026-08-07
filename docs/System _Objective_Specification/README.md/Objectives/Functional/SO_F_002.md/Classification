@@ -1,0 +1,36 @@
+## Classification
+
+### Primary Category
+
+Functional Objective
+
+---
+
+### Secondary Classification
+
+Derived Operational Objective
+
+---
+
+### Engineering Domain
+
+Environmental Perception
+
+---
+
+### Classification Justification
+
+SO-F-002 defines the first operational capability required to realize the root functional objective established by SO-F-001.
+
+Its engineering responsibility is limited to the acquisition and maintenance of observations describing the operating environment. It does not interpret, evaluate, or act upon those observations.
+
+As the first operational capability in the adaptive processing pipeline, it establishes the information foundation upon which subsequent Functional Objectives depend.
+
+---
+
+### Classification Notes
+
+- Derived directly from SO-F-001.
+- First operational objective within the Functional Objective hierarchy.
+- Parent objective for future perception-specific objectives.
+- Changes to this objective may affect all downstream objectives that consume observational information.
