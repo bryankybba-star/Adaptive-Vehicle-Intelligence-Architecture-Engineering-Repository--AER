@@ -1,0 +1,45 @@
+Engineering Rationale
+
+Engineering Need
+
+Adaptive vehicle intelligence requires more than the acquisition of observations. The system must establish the operational meaning and relationships of those observations before appropriate adaptive decisions can be generated.
+
+---
+
+Engineering Context
+
+SO-F-003 occupies the interpretation stage between environmental perception and adaptive decision generation.
+
+SO-F-002 provides observations of relevant conditions. SO-F-003 transforms those observations into an interpreted operating context that can be used by subsequent decision-making functions.
+
+---
+
+Engineering Justification
+
+Separating interpretation from perception preserves the distinction between observing conditions and understanding their operational significance.
+
+Separating interpretation from decision generation likewise prevents the system from coupling contextual understanding with action selection.
+
+This separation supports modular architecture, clearer verification boundaries, independent evolution of interpretation capabilities, and improved traceability of decisions to the contextual information from which they originate.
+
+---
+
+Expected Engineering Benefit
+
+Achievement of this objective enables the system to:
+
+- Establish meaningful operational context from available observations.
+- Maintain awareness of changing situations.
+- Provide contextual information to downstream decision functions.
+- Preserve separation between observation, interpretation, decision, and execution.
+- Support traceable adaptive decision-making.
+
+---
+
+Dependencies and Assumptions
+
+This objective depends directly on the observational capability established by SO-F-002.
+
+Its outputs are expected to support SO-F-004 and other functions requiring an interpreted operating context.
+
+Interpretation may operate under incomplete or uncertain observations and shall therefore support appropriate representation of uncertainty without transferring decision authority into this objective.
