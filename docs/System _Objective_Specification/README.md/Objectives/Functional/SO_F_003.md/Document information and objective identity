@@ -1,0 +1,59 @@
+SO-F-003 — Interpret the Operating Context
+
+Document Information
+
+Field| Value
+Document Title| Interpret the Operating Context
+Document Identifier| AVIA-SO-F-003
+Objective Identifier| SO-F-003
+Objective Category| Functional Objective
+Document Type| System Objective
+Parent Domain| System Objective Specification (SOS)
+Parent Folder| objectives/functional
+Repository| AER-PU
+Status| Draft
+Version| 1.0
+Owner| AVIA Engineering
+Approval Authority| AVIA Governance
+Effective Date| TBD
+Last Updated| TBD
+
+---
+
+Objective Identity
+
+Objective Identifier
+
+SO-F-003
+
+Objective Title
+
+Interpret the Operating Context
+
+Objective Type
+
+Derived Functional Objective
+
+Objective Classification
+
+Derived Operational Objective
+
+Parent Objective
+
+SO-F-001 — Provide Adaptive Vehicle Intelligence
+
+Operational Predecessor
+
+SO-F-002 — Perceive the Operating Environment
+
+Child Objectives
+
+To be established.
+
+Lifecycle Status
+
+Draft
+
+Baseline Version
+
+v1.0
