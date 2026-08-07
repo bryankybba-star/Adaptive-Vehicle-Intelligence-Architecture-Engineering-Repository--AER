@@ -1,0 +1,37 @@
+Classification
+
+Primary Category
+
+Functional Objective
+
+---
+
+Secondary Classification
+
+Derived Operational Objective
+
+---
+
+Engineering Domain
+
+Operating Context Interpretation
+
+---
+
+Classification Justification
+
+SO-F-003 defines the interpretation capability required to transform relevant observations into an operationally meaningful context.
+
+It is derived from the root Functional Objective SO-F-001 and operates downstream of the perception capability established by SO-F-002.
+
+Its responsibility is limited to interpretation and contextual understanding. Decision generation and action execution remain outside its scope.
+
+---
+
+Classification Notes
+
+- Derived directly from SO-F-001.
+- Operationally follows SO-F-002.
+- Establishes the interpretation stage of the adaptive processing pipeline.
+- Serves as an upstream capability for future decision-generation objectives.
+- May become the parent of future context-interpretation objectives as the architecture is further decomposed.
