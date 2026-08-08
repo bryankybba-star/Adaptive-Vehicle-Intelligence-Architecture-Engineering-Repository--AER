@@ -1,0 +1,77 @@
+Verification Reference
+
+Verification Objective
+
+Demonstrate that the Adaptive Vehicle Intelligence Architecture (AVIA) can generate adaptive decisions from an interpreted operating context in accordance with the requirements of SO-F-004.
+
+---
+
+Verification Method
+
+Verification shall be achieved through one or more of the following methods:
+
+Method| Purpose
+Analysis| Confirm that the decision-generation architecture evaluates relevant contextual information and applicable constraints appropriately.
+Demonstration| Show that representative operating contexts produce corresponding decision outputs.
+Test| Evaluate decision generation across defined operational scenarios, including changing, uncertain, and conflicting conditions where applicable.
+
+---
+
+Verification Reference
+
+Detailed verification procedures, scenarios, datasets, decision criteria, and evidence shall be maintained within the AVIA Verification domain and referenced from this objective upon approval.
+
+---
+
+Verification Success Criteria
+
+Verification shall demonstrate that the system can:
+
+- Receive and process relevant operating-context information.
+- Evaluate applicable response alternatives.
+- Generate decisions appropriate to defined operating conditions.
+- Apply approved decision constraints.
+- Represent decision confidence or uncertainty where required.
+- Maintain traceability between generated decisions and their contextual inputs.
+- Produce decision information in a form suitable for subsequent authorization and execution.
+
+---
+
+Verification Boundary
+
+Verification of SO-F-004 shall evaluate the decision-generation capability independently of:
+
+- Environmental perception.
+- Operating-context interpretation.
+- Final decision authorization.
+- Physical action execution.
+
+The verification shall not establish that a generated decision is authorized to execute.
+
+---
+
+Authorization Boundary
+
+Where an authority mechanism is subsequently established, verification of that mechanism shall be performed under the applicable authority or governance architecture.
+
+SO-F-004 verification may verify that required authorization information is correctly represented or provided as an interface requirement, but shall not assume authority that has not been architecturally established.
+
+---
+
+Verification Status
+
+Not Yet Verified
+
+---
+
+Verification Notes
+
+Verification evidence should preserve the relationship:
+
+Operating Context
+       ↓
+Generated Decision
+
+and, where applicable, identify the constraints and information considered during decision generation.
+
+A generated decision shall remain distinguishable from an approved decision throughout verification activities.
