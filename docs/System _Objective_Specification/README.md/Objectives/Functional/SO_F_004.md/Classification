@@ -1,0 +1,64 @@
+Classification
+
+Primary Category
+
+Functional Objective
+
+---
+
+Secondary Classification
+
+Derived Operational Objective
+
+---
+
+Engineering Domain
+
+Adaptive Decision Generation
+
+---
+
+Classification Justification
+
+SO-F-004 defines the capability required to transform an interpreted operating context into an adaptive decision suitable for subsequent authorization and execution.
+
+It is derived from the root Functional Objective SO-F-001 and operates downstream of the contextual interpretation capability established by SO-F-003.
+
+Its responsibility is limited to decision generation and does not extend to physical execution or the automatic authorization of generated decisions.
+
+---
+
+Operational Role
+
+SO-F-004 occupies the decision-generation stage of the current adaptive processing flow:
+
+Observations
+      ↓
+Operating Context
+      ↓
+Decision Generation
+      ↓
+Generated Decision
+
+---
+
+Classification Boundaries
+
+SO-F-004 shall remain distinct from:
+
+- Environmental perception.
+- Operating-context interpretation.
+- Decision authorization.
+- Physical action execution.
+
+---
+
+Classification Notes
+
+- Derived from SO-F-001.
+- Operationally follows SO-F-003.
+- Operationally precedes the execution capability established by SO-F-005.
+- Represents the decision-generation stage of the current adaptive processing architecture.
+- Does not establish decision authority by itself.
+- The architectural position of authorization remains under investigation.
+- Future decision-generation objectives shall maintain traceability to SO-F-004.
