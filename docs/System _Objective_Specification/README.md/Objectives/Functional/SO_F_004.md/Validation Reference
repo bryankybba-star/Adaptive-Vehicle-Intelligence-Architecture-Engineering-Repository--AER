@@ -1,0 +1,79 @@
+Validation Reference
+
+Validation Objective
+
+Demonstrate that the adaptive decision-generation capability enables the Adaptive Vehicle Intelligence Architecture (AVIA) to produce appropriate response decisions from interpreted operating contexts in representative operational situations.
+
+---
+
+Validation Method
+
+Validation shall be performed through one or more of the following methods:
+
+Method| Purpose
+Operational Evaluation| Assess decision-generation behavior under representative operating conditions.
+Scenario-Based Assessment| Evaluate generated decisions across varying, uncertain, and interacting operational situations.
+Comparative Assessment| Compare generated decisions against approved operational expectations and applicable decision criteria.
+Stakeholder Acceptance| Confirm that the decision-generation capability fulfills its intended role within the adaptive intelligence architecture.
+
+---
+
+Validation Reference
+
+Detailed validation scenarios, operational conditions, decision criteria, acceptance records, and supporting evidence shall be maintained within the AVIA Validation domain and referenced from this objective.
+
+---
+
+Validation Success Criteria
+
+Validation shall demonstrate that the system:
+
+- Generates decisions that are appropriate to representative operating contexts.
+- Considers relevant alternatives and applicable constraints.
+- Produces decisions that support the intended adaptive behavior of AVIA.
+- Maintains appropriate behavior when operating conditions change.
+- Represents uncertainty appropriately where decision generation is affected by incomplete or uncertain context.
+- Provides decision information suitable for subsequent authorization and execution.
+- Fulfills the engineering intent established by SO-F-004.
+
+---
+
+Validation Boundary
+
+Validation of SO-F-004 shall assess whether generated decisions fulfill their intended operational purpose.
+
+It shall not independently establish:
+
+- Whether the decision is legally or operationally authorized.
+- Whether a separate authority mechanism has correctly approved the decision.
+- Whether the vehicle successfully executes the approved decision.
+
+Those capabilities shall be validated under their respective architectural responsibilities.
+
+---
+
+Authorization Consideration
+
+A generated decision may be considered operationally appropriate without being authorized for execution.
+
+Therefore validation evidence shall preserve the distinction between:
+
+Appropriate Decision
+        ≠
+Authorized Decision
+
+The authorization architecture shall determine how appropriate generated decisions become approved decisions.
+
+---
+
+Validation Status
+
+Not Yet Validated
+
+---
+
+Validation Notes
+
+Validation shall preserve traceability from representative operating contexts to generated decisions and, where applicable, to subsequent authorization and execution evidence.
+
+No specific decision-generation technology shall be required by validation unless established through approved derived requirements.
