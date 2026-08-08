@@ -1,0 +1,108 @@
+Relationships
+
+Parent Objective(s)
+
+Identifier| Title| Relationship
+SO-F-001| Provide Adaptive Vehicle Intelligence| Parent Objective
+
+SO-F-004 is directly derived from SO-F-001 and refines the root functional capability by establishing adaptive decision-generation capability.
+
+---
+
+Child Objective(s)
+
+Child objectives shall be established as the decision-generation domain is further decomposed.
+
+Potential future areas include:
+
+Identifier| Potential Area| Relationship
+TBD| Alternative Response Evaluation| Direct Child
+TBD| Adaptive Decision Selection| Direct Child
+TBD| Decision Constraint Evaluation| Direct Child
+TBD| Decision Confidence| Direct Child
+TBD| Decision Representation| Direct Child
+
+These represent architectural possibilities only and are not approved objectives.
+
+---
+
+Supporting Objective(s)
+
+None established at this stage.
+
+Supporting relationships shall be defined as additional engineering domains are developed.
+
+---
+
+Dependent Objective(s)
+
+Identifier| Title| Dependency
+SO-F-005| Execute Approved Actions| Downstream Operational Dependency
+
+SO-F-005 is expected to consume an approved decision resulting from the decision-generation and applicable authorization process.
+
+---
+
+Operational Predecessor
+
+Identifier| Title| Relationship
+SO-F-003| Interpret the Operating Context| Operational Predecessor
+
+SO-F-003 provides the interpreted operating context from which SO-F-004 generates adaptive decisions.
+
+---
+
+Operational Successor
+
+Identifier| Title| Relationship
+SO-F-005| Execute Approved Actions| Operational Successor
+
+SO-F-005 is responsible for executing an approved decision and does not inherit the decision-generation responsibility of SO-F-004.
+
+---
+
+Authority Relationship
+
+The relationship between SO-F-004 and the mechanism responsible for authorizing generated decisions remains unresolved.
+
+The current architectural representation is:
+
+SO-F-003
+Operating Context
+       ↓
+SO-F-004
+Decision Generation
+       ↓
+Generated Decision
+       ↓
+[Authority Mechanism — TBD]
+       ↓
+Approved Decision
+       ↓
+SO-F-005
+Execution
+
+No independent authority objective is established by this document.
+
+---
+
+Related Objectives
+
+Future relationships may be established with:
+
+- Safety Objectives
+- Human Authority Objectives
+- Coordination Objectives
+- Operational Governance Objectives
+- Reliability Objectives
+- Adaptation Objectives
+
+Such relationships shall be established only when supported by approved architectural decisions.
+
+---
+
+Relationship Notes
+
+SO-F-004 is formally subordinate to SO-F-001 while operationally following SO-F-003 and preceding SO-F-005.
+
+The distinction between generated decisions and authorized decisions shall remain preserved until the authority architecture is formally established.
