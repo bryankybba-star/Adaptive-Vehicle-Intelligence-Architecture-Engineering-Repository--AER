@@ -1,0 +1,72 @@
+Engineering Notes
+
+Engineering Observations
+
+SO-F-004 establishes the decision-generation stage within the current AVIA adaptive processing architecture.
+
+Its primary responsibility is to transform interpreted operating context into a generated decision suitable for subsequent authorization and execution.
+
+---
+
+Engineering Considerations
+
+Decision generation should remain sufficiently independent from perception, contextual interpretation, authorization, and physical execution to permit controlled evolution of each capability.
+
+Decision generation may operate under incomplete, changing, or uncertain contextual information. Such conditions should be represented through appropriate engineering mechanisms rather than implicitly treated as certainty.
+
+---
+
+Known Limitations
+
+This objective establishes the required decision-generation capability but does not define:
+
+- Specific decision-generation algorithms.
+- Artificial intelligence or machine-learning models.
+- Optimization or planning techniques.
+- Decision authorization mechanisms.
+- Human authority mechanisms.
+- Safety authorization mechanisms.
+- Physical execution mechanisms.
+
+These shall be established through derived objectives and associated engineering artifacts where required.
+
+---
+
+Authority Architecture Observation
+
+A distinction has been identified between:
+
+Generated Decision
+        ↓
+Authorization
+        ↓
+Approved Decision
+
+The existence, ownership, and architectural form of the authorization mechanism remain unresolved.
+
+This shall be investigated through subsequent architectural development rather than being artificially assigned to SO-F-004.
+
+---
+
+Future Considerations
+
+Future decision-generation objectives may further define capabilities related to:
+
+- Alternative response evaluation.
+- Adaptive decision selection.
+- Decision constraint evaluation.
+- Decision confidence.
+- Decision representation.
+- Decision traceability.
+
+Such capabilities shall remain traceable to SO-F-004 if formally derived.
+
+---
+
+Architectural Note
+
+SO-F-004 currently represents an independent decision-generation boundary within the AVIA adaptive processing architecture.
+
+The continued validity and appropriate placement of this boundary shall be evaluated through subsequent Engineering Review Gates as additional Functional, Safety, Human Authority, Coordination, and Governance objectives are developed.
+
+No architectural pattern shall be promoted to a repository-wide standard solely on the basis of this objective.
