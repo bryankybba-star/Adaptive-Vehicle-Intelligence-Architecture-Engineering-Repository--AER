@@ -1,0 +1,63 @@
+SO-F-004 — Generate Adaptive Decisions
+
+Document Information
+
+Field| Value
+Document Title| Generate Adaptive Decisions
+Document Identifier| AVIA-SO-F-004
+Objective Identifier| SO-F-004
+Objective Category| Functional Objective
+Document Type| System Objective
+Parent Domain| System Objective Specification (SOS)
+Parent Folder| objectives/functional
+Repository| AER-PU
+Status| Draft
+Version| 1.0
+Owner| AVIA Engineering
+Approval Authority| AVIA Governance
+Effective Date| TBD
+Last Updated| TBD
+
+---
+
+Objective Identity
+
+Objective Identifier
+
+SO-F-004
+
+Objective Title
+
+Generate Adaptive Decisions
+
+Objective Type
+
+Derived Functional Objective
+
+Objective Classification
+
+Adaptive Decision Objective
+
+Parent Objective
+
+SO-F-001 — Provide Adaptive Vehicle Intelligence
+
+Operational Predecessor
+
+SO-F-003 — Interpret the Operating Context
+
+Operational Successor
+
+SO-F-005 — Execute Approved Actions
+
+Child Objectives
+
+To be established.
+
+Lifecycle Status
+
+Draft
+
+Baseline Version
+
+v1.0
