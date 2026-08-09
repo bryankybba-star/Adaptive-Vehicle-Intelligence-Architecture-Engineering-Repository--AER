@@ -1,0 +1,160 @@
+Engineering Notes
+
+Engineering Observations
+
+SO-F-005 establishes the execution boundary within the current AVIA adaptive processing architecture.
+
+Its responsibility is to transform an approved decision into corresponding vehicle action while maintaining execution-state visibility and preserving decision-to-action traceability.
+
+---
+
+Engineering Boundary
+
+The current architectural boundary is:
+
+SO-F-004
+Decision Generation
+       ↓
+Generated Decision
+       ↓
+[Authorization — Open]
+       ↓
+Approved Decision
+       ↓
+SO-F-005
+Execution
+       ↓
+Vehicle Action
+       ↓
+Execution State
+
+SO-F-005 shall not assume responsibility for any unresolved upstream authority mechanism.
+
+---
+
+Execution Independence
+
+Execution shall remain sufficiently independent from decision generation to allow:
+
+- Decision strategies to evolve independently.
+- Vehicle execution mechanisms to evolve independently.
+- Execution failures to be handled without corrupting decision-generation responsibilities.
+- Verification and validation activities to isolate execution behavior.
+- Vehicle-specific implementation details to remain below the functional objective level.
+
+---
+
+Execution State
+
+Execution State is an established output candidate of SO-F-005.
+
+The final state model, reporting requirements, and destination of execution-state information remain subject to subsequent system-specific requirements and architectural development.
+
+---
+
+Execution Failure
+
+Execution failure shall be observable and reportable.
+
+However, execution failure shall not automatically grant SO-F-005 authority to determine a new adaptive response.
+
+The current intended relationship is:
+
+Execution Failure
+       ↓
+Execution State
+       ↓
+Appropriate Receiving Capability
+       ↓
+Subsequent Response
+
+The receiving capability remains unresolved.
+
+---
+
+Authority Architecture Observation
+
+The distinction between generated and approved decisions remains mandatory:
+
+Generated Decision
+       ↓
+[Authorization]
+       ↓
+Approved Decision
+
+The architecture has not yet established:
+
+- Who or what holds decision authority.
+- How authority is granted.
+- How authority is retained.
+- How authority may be transferred.
+- How human authority interacts with system authority.
+- How safety constraints interact with authority.
+- How authorization is represented and recorded.
+
+These questions remain open architectural issues and shall be resolved through evidence rather than assigned prematurely to SO-F-004 or SO-F-005.
+
+---
+
+Feedback Architecture Observation
+
+Execution State creates a potential feedback path into the wider adaptive system.
+
+Possible destinations include:
+
+- Context interpretation.
+- Decision generation.
+- Safety mechanisms.
+- Recovery mechanisms.
+- Governance mechanisms.
+- A dedicated feedback capability.
+
+No destination is currently established.
+
+The existence of execution feedback shall therefore be preserved as an architectural observation rather than converted into an unverified objective.
+
+---
+
+Future Considerations
+
+Future execution-related decomposition may address:
+
+- Action translation.
+- Execution coordination.
+- Execution monitoring.
+- Execution-state representation.
+- Failure detection.
+- Recovery interfaces.
+- Execution feedback.
+
+Such capabilities shall be introduced only where architectural evidence demonstrates a distinct responsibility.
+
+---
+
+Known Limitations
+
+This objective does not define:
+
+- Specific actuators.
+- Specific vehicle-control systems.
+- Specific control algorithms.
+- Communication protocols.
+- Hardware architectures.
+- Authorization mechanisms.
+- Human authority mechanisms.
+- Safety governance.
+- Feedback ownership.
+
+These shall be established through appropriate derived requirements and architectural development.
+
+---
+
+Architectural Baseline Note
+
+SO-F-005 completes the currently established functional transformation chain from environmental observation through interpretation, decision generation, authorization boundary, and execution.
+
+The objective does not imply that the entire AVIA functional architecture is complete.
+
+Further architectural evidence may introduce additional objectives, interfaces, cross-cutting mechanisms, or feedback structures.
+
+No unresolved architectural question shall be silently converted into an assumption.
