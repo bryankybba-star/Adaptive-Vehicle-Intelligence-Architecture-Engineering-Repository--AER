@@ -1,0 +1,120 @@
+Engineering Rationale
+
+Engineering Need
+
+Adaptive vehicle intelligence requires a distinct capability that can transform an approved decision into corresponding vehicle action. Without an explicit execution boundary, decision generation would become coupled to physical control mechanisms and execution-state management.
+
+---
+
+Engineering Context
+
+SO-F-005 occupies the downstream execution stage of the current AVIA operational architecture.
+
+SO-F-004 generates an adaptive decision from the interpreted operating context. That generated decision is subject to the applicable authorization mechanism. Once approved, the resulting decision becomes an input to SO-F-005 for execution.
+
+The current operational relationship is therefore:
+
+Operating Context
+       ↓
+Decision Generation
+       ↓
+Generated Decision
+       ↓
+Authorization
+       ↓
+Approved Decision
+       ↓
+Execution
+       ↓
+Vehicle Action
+
+---
+
+Engineering Justification
+
+Separating execution from decision generation establishes a clear boundary between determining what should happen and carrying out an approved response.
+
+This separation enables:
+
+- Independent evolution of decision strategies and execution mechanisms.
+- Clearer responsibility allocation.
+- Independent verification of execution behavior.
+- Improved traceability between decisions and actions.
+- Isolation of vehicle-specific execution mechanisms from higher-level decision logic.
+- More controlled handling of execution failure and deviation.
+
+---
+
+Execution State
+
+Execution does not necessarily terminate when an action is commanded.
+
+The system may need to determine whether an approved action is:
+
+- being executed,
+- completed,
+- partially completed,
+- delayed,
+- deviating from expectation,
+- or unable to execute.
+
+Therefore, execution state is treated as an important output of SO-F-005.
+
+The destination and architectural ownership of execution feedback remain under investigation.
+
+---
+
+Execution Failure
+
+Execution failure is considered an execution-state condition rather than automatically a new decision.
+
+SO-F-005 shall detect and report relevant execution failure, while the responsibility for determining an appropriate subsequent response shall remain with the capability responsible for adaptive decision-making or another explicitly authorized architectural mechanism.
+
+This prevents the execution layer from acquiring an unintended autonomous decision-making responsibility.
+
+---
+
+Authority Relationship
+
+SO-F-005 assumes that its input has already passed through the applicable authorization mechanism.
+
+The architecture currently does not define the ownership or implementation of that mechanism.
+
+Therefore:
+
+Generated Decision
+       ↓
+[Authorization — Open]
+       ↓
+Approved Decision
+       ↓
+SO-F-005
+
+The unresolved authorization architecture shall not be embedded within SO-F-005 merely to complete the execution chain.
+
+---
+
+Expected Engineering Benefit
+
+Achievement of this objective enables AVIA to:
+
+- Convert approved adaptive decisions into vehicle actions.
+- Maintain a clear separation between decision and execution.
+- Monitor whether approved actions are being fulfilled.
+- Detect and report execution deviations.
+- Preserve decision-to-action traceability.
+- Support future adaptive feedback without prematurely assigning feedback ownership.
+
+---
+
+Dependencies and Assumptions
+
+SO-F-005 depends on:
+
+- The operating context established through upstream system capabilities.
+- The decision-generation capability established by SO-F-004.
+- An applicable authorization mechanism.
+- Lower-level vehicle execution mechanisms.
+- Appropriate execution-state observability.
+
+The architecture shall determine the final ownership of authorization, feedback, recovery, and safety-related execution constraints through subsequent engineering development.
