@@ -1,0 +1,140 @@
+Relationships
+
+Parent Objective(s)
+
+Identifier| Title| Relationship
+SO-F-001| Provide Adaptive Vehicle Intelligence| Parent Objective
+
+SO-F-005 is directly derived from SO-F-001 and establishes the execution capability required by the root adaptive-intelligence objective.
+
+---
+
+Child Objective(s)
+
+Child objectives shall be established as the execution domain is further decomposed.
+
+Potential future areas include:
+
+Identifier| Potential Area| Relationship
+TBD| Action Translation| Direct Child
+TBD| Action Coordination| Direct Child
+TBD| Execution Monitoring| Direct Child
+TBD| Execution State Reporting| Direct Child
+TBD| Execution Failure Detection| Direct Child
+
+These are architectural candidates only and are not approved objectives.
+
+---
+
+Operational Predecessor
+
+Identifier| Title| Relationship
+SO-F-004| Generate Adaptive Decisions| Operational Predecessor
+
+SO-F-004 generates the decision that enters the applicable authorization process before becoming an input to SO-F-005.
+
+---
+
+Immediate Input Relationship
+
+SO-F-005 receives an approved decision, not merely a generated decision.
+
+The current relationship is:
+
+SO-F-004
+Generated Decision
+       ↓
+[AUTHORIZATION — OPEN]
+       ↓
+Approved Decision
+       ↓
+SO-F-005
+
+---
+
+Operational Successor
+
+No successor objective is currently established.
+
+Execution State is currently treated as an output of SO-F-005 rather than evidence of a separate downstream objective.
+
+A future successor may be established if architectural evidence demonstrates a distinct responsibility for feedback processing, recovery, adaptation, or another post-execution capability.
+
+---
+
+Output Relationships
+
+SO-F-005 produces:
+
+Approved Decision
+       ↓
+Action Execution
+       ↓
+Vehicle Action
+       ↓
+Execution State
+
+Execution State may provide information to other AVIA capabilities, but its final architectural destination remains under investigation.
+
+---
+
+Authorization Relationship
+
+The authorization mechanism between generated and approved decisions remains unresolved.
+
+No objective is currently assigned responsibility for authorization.
+
+Therefore:
+
+Generated Decision
+       ↓
+[Authorization Mechanism — TBD]
+       ↓
+Approved Decision
+
+SO-F-005 shall not be interpreted as the owner of this mechanism.
+
+---
+
+Feedback Relationship
+
+Execution State may eventually contribute to:
+
+- Operating-context interpretation.
+- Adaptive decision generation.
+- Safety mechanisms.
+- Recovery mechanisms.
+- Governance or authority mechanisms.
+- A dedicated feedback capability.
+
+No final relationship has been established.
+
+The architecture shall determine the appropriate destination through subsequent evidence.
+
+---
+
+Related Objectives
+
+Future relationships may be established with:
+
+- Safety Objectives.
+- Human Authority Objectives.
+- Control Objectives.
+- Coordination Objectives.
+- Recovery Objectives.
+- Feedback or Adaptation Objectives.
+- Governance Objectives.
+
+Such relationships shall be established only through approved architectural decisions.
+
+---
+
+Relationship Notes
+
+SO-F-005 is formally subordinate to SO-F-001 while operationally following SO-F-004.
+
+Its immediate input is an approved decision produced through an authorization process that has not yet been architecturally assigned.
+
+Its primary output is vehicle action accompanied by relevant execution-state information.
+
+Neither authorization ownership nor feedback ownership shall be inferred from this document.
